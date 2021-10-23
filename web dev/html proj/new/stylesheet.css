@@ -1,0 +1,9 @@
+body {background-color: antiquewhite;}
+td,th{text-align: center;text-overline-color: blue}
+table{border:2px ; border-collapse: collapse}
+h1{text-decoration-color: brown;text-align: center}
+h3{text-align: center;color: brown}
+h6{text-align: right;color: black}
+td,tr{text-align: left}
+input{border:0px  ;border-color: antiquewhite;background-color: antiquewhite}
+#input2{border-color: brown;background-color: azure}

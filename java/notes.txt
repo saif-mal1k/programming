@@ -1,0 +1,157 @@
+frame:
+1.frame()
+2.Fame(string TitleValue)
+
+Method:
+1.setSize()
+2.setTitle()
+3.setVisible()
+4.add()
+5.setLayout()
+
+Labels:
+1.Label()
+2.Label(string msg)
+3.Label(string msg, int how)
+
+how:
+Label.LEFT
+Label.RIGHT
+Label.CENTER
+
+Method:
+1.setAlignment()
+2.getAlignment()
+3.setText()
+4.getText()
+
+Button:
+1.Button()
+2.Button(String msg)
+
+Method:
+1.setLabel()
+2.getLabel()
+
+Checkbox:
+1.Checkbox()
+2.Checkbox(String value)
+3.Checkbox(string value,Boolean on)
+4.Checkbox(string value,CheckboxGroup ob,boolean on)
+
+Method:
+1.getstate()
+2.setstate()
+3.setLabel()
+4.getLabel()
+
+Choice:
+1.choice()
+
+Method:
+1.add()
+2.getItemCount()
+3.getSelectedItem()
+4.getSelectedIndex()
+5.select()
+6.getItem()
+
+List:
+1.List()
+2.List(int numRows)
+3.
+
+
+
+
+Scrollbar:
+1.Scrollbar()
+2.Scrollbar(int style)
+3.Scrollbar(int style,int initialSize,int thumbsize,int min,int max)
+
+Style:
+Scrollbar.HORIZONTAL
+Scrollbar.VARTICAL
+
+Method:
+1.getMinimum()
+2.getMaximum()
+3.setUnitIncrement()
+SetBlockIncrement()
+getValue()
+setValue()
+
+TextField:
+1.TextField()
+2.TextField(int numChars)
+3.TextField(String val)
+
+TextArea:
+1.TextArea()
+3.TextArea(int numLines,int numChars)
+2.TextArea(String val,int numLines,int numChars,int isBar)
+
+Method:
+1.setText()
+2.getText()
+3.getSelectedText()
+4.select()
+5.isEditable()
+6.setEditable()
+7.append()
+8.insert()
+9.repleceRange()
+
+
+Event:
+1.actionEvent
+2.AdjustmentEvent
+3.ContainerEvent
+4.InputEvent
+5.FocusEvent
+6.MouseEvent
+7.ItemEvent
+8.KeyEvent
+9.TextEvent
+10.WindowEvent
+
+Event Interface:
+1.ActionListner
+    -actionPerformed(actionEvent obj)
+2.AdjustmentListner
+    -void
+     adjustmentValueChanged(AdjustmentEvent obj)
+3.ComponentListner
+    -componentResize(ComponentEvent obj)
+    -componentMoved(ComponentEvent obj)
+    -componentShown(ComponentEvent obj)
+    -ComponentHidden(ComponentEvent obj)
+4.containerListner
+    -componentAdded(ContainerEvent obj)
+    -coomponentRemoved(ContainerEvent obj)
+5.FocusListner
+    -FocusGained(FocusEvent obj)
+    -focusLost(FocusEvent obj)
+6.ItemListner
+    -itemStateChanged(ItemEvent obj)
+7.KeyListner
+    -keyPressed(KeyEvent obj)
+    -keyReleased(KeyEvent obj)
+    -keyTyped(KeyEvent obj)
+8.MouseListner
+    -mouseClicked(MouseEvent obj)
+    -mouseEntered(MouseEvent obj)
+    -mouseExited(MouseEvent obj)
+    -mousePressed(MouseEvent obj)
+    -mouseReleased(MouseEvent obj)
+9.MouseMotionListner
+    -mouseDragged(MouseEvent obj)
+    -mouseMoved(MouseEvent obj)
+10.TextListner
+    -textChanged(TextEvent obj)
+11.WindowListner
+    -windowActivatted(windowEvent obj)
+    -windowDeactivated(windowEvent obj)
+    -windowClosing(windowEvent obj)
+    -windowClosed(windowEvent obj)
+    -windowOpened(windowEvent obj)

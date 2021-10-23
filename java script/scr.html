@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>learnon</title>
+        <link href="learnon.js" rel="script">
+    </head>
+    <body>
+        <form name="qfrm">
+            <table><tr>
+                <td>
+                    <input type="text" name="av" id="av" size="3" onkeyup="isNumberKey(this.id)">
+                    x<sup>2</sup>+
+                </td>
+                <td>
+                    <input type="text" name="bv" id="bv" size="3" onkeyup="isNumberKey(this.id)">
+                    x+
+                </td>
+                <td>
+                    <input type="text" name="cv" id="cv" size="3" onkeyup="isNumberKey(this.id)">
+                </td>
+                </tr>
+                <tr rowspan="2">
+                <td colspan="3" align="center">
+                    <input type="button" value="calculate" onclick="quad()">
+                </td></tr>
+            </table>
+            <table>
+                <tr rowspan="2">
+                    <td colspan="3" align="center">result</td>
+                </tr>
+                <tr>
+                    <td>root1<input type="text" name="r1" id="r1" size="10" readonly></td>
+                </tr>
+                <tr>
+                    <td>root2<input type="text" name="r2" id="r2" size="10" readonly></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

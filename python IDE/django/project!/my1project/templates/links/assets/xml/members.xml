@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<department name="computer science">
+    <head name="mr.reddy">
+        <employee>rahul</employee>
+        <employee>sumit</employee>
+        <employee>sikshit</employee>
+    </head>
+    <head name="mr.dhruv">
+        <employee>gitresh</employee>
+        <employee>subhash</employee>
+        <employee>sushikshhit</employee>
+    </head>
+</department>
