@@ -1,0 +1,69 @@
+_______________________________________________________________________________________________________
+******************************************* aggregate functions *************************************
+1.avg
+ex: select avg(salary) from employee;
+
+2.min
+ex: selcect min(salary) from employee;
+
+3.max
+ex: selcect max(salary) from employee;
+
+4.sum
+ex: select sum(amount) from loan;
+
+5.count
+ex: select count(*) from customer;
+
+-----------------------------------------------------------------------------------------------------
+1.like (for pattern matching) " %substring% "  or  " _substr_ "
+ex:where ename like '%abhi%'
+
+	a. 'perry%' 	matches any string beginning with "perry"
+	b. '%idge%' 	matches any string containg "idge" as a substring
+	c. '---' 	matches any string of atleast three characters
+	d. '---%' 	matches any string of atleast three characters
+
+escape character " \ "
+ex:like 'ab\%cd%' matches all string beggning with "ab%cd"
+eX:like 'ab\\cd%' matches all string beggning with "ab\cd"
+-----------------------------------------------------------------------------------------------------
+2. is null
+ex:where amount is null;
+_______________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+********************************************** OTHERS *************************************************
+1. distinct and order by
+ex:select distinct name from employee order by name;
+ex:select count(distinct dept) from employee;
+
+2. destinct and group by
+ex:select branch_name,count(distinct customer_name) from depositor,account 
+	where depositor.account_number = account.account_number group by branch_name; 
+_______________________________________________________________________________________________________
+******************************************* various clauses *******************************************
+the check clause
+ex:check (branch_name in (select branch_name from branch));
+
+1. where vs having 
+ "generally having is used with aggregate functions"
+ex:	having count(distinct depositor.account_number) >= 3
+ex:	select max(salary) from employee having emp_id > 101;
+
+2. order by vs group by
+ "generally group by is used with aggregate functions"
+ex: 	select branch_name,avg(balance) from account group by branch_name;
+
+----------------------------------------------------
+difference between
+a. IN vs EXISTS
+ex:select * from customers where city in (delhi,agra,havana);
+ex:select * from customers where city in (select city from tablename);
+  "exists returns either true or false value"
+ex: select * from customers where exists(select distinct city from table);
+
+_______________________________________________________________________________________________________

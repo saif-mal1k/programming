@@ -1,0 +1,49 @@
+_______________________________________________________________________________________________________
+1.nested subQueries
+
+ex: 
+	select distinct customer_name from borrower where customer_name
+		 in (select customer_name from depositor);
+_______________________________________________________________________________________________________
+_______________________________________________________________________________________________________
+2.views							"views are basically virtual tables that do not 
+								exist"
+ex:
+	CREATE VIEW viewname AS 
+		SELECT col1,col2....
+		FROM tablename...
+		WHERE condition;
+
+view using single table
+ex:	CREATE VIEW details AS 
+		SELECT name,address
+		FROM students
+		WHERE id < 110;
+
+view using multiple table
+ex:	CREATE VIEW details AS 
+		SELECT s.name,s.address,m.marks
+		FROM students s, marks m
+		WHERE s.id = m.id;
+
+DROP VIEW details;
+
+note:
+1. there is no record in the view, it only holds the definition of the tbale and fetches data from 
+	the table and shows it.
+2. views are stored as permanent query objects in DB.
+-------------------------------------------------------------------------------------------------------
+
+3. integrity constraints
+	a.entity integrity
+		primary key , unique
+	b.domain integrity
+		not null
+	c.referential integrity
+		create table employee(	foreign key(deptno) references dept(deptno));
+
+_______________________________________________________________________________________________________
+_______________________________________________________________________________________________________
+
+
+-------------------------------------------------- END ------------------------------------------------

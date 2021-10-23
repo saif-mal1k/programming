@@ -1,0 +1,117 @@
+*****************************************************************************************************************************************************************************************
+*****************************************************************************************************************************************************************************************
+------------------------------create new user---------------------------------------------------------------------------
+1.mysql>CREATE USER 'newuser'@'myhost.example.com' IDENTIFIED BY 'yourpassword';
+	ex:create user 'user1@mail.com' identified by '876543';
+
+2.mysql>GRANT ALL ON databasename.* TO 'newuser'@'myhost.example.com';
+
+3.mysql>REVOKE * ON databasename.* FROM 'newuser'@'myhost.example.com';
+________________________________________________________________________________________________________________________
+
+-----------------------------viewing all user-------------------------------------------------------------------------
+1.mysql>select user from mysql.user;
+________________________________________________________________________________________________________________________
+
+-----------------------------updating password for a user-------------------------------------------------------------------------
+1.mysql> update mysql.user set password="987654" where user='user1';
+
+warning updated password will be less secure
+EX:
+mysql> select user,host,password from mysql.user;
++----------+-----------+-------------------------------------------+
+| user     | host      | password                                  |
++----------+-----------+-------------------------------------------+
+| root     | localhost | *GSDJ68S67S767SDYF8SFUSDFFSFUI7S87SIUFS9U |
+| sysadmin | %         | *FG625GS35SG3B7X4HND8DJ7F875VN6767CN6R8D8 |
+| user1    | %         | 987654                                    |  <---- I UPDATED FOR THIS USER
++----------+-----------+-------------------------------------------+
+3 rows in set (0.00 sec)
+________________________________________________________________________________________________________________________
+
+-----------------------------login for new user-------------------------------------------------------------------------
+c:programme files\mysql\mysql server 5.0\bin>%mysql -h localhost -u username -p 
+							or 
+			""mysql server 5.0\bin>mysql -u username -p""
+mysql> Enter password: yourpassword
+________________________________________________________________________________________________________________________
+
+-----------------------------create new database------------------------------------------------------------------------
+mysql>CREATE DATABASE databasename;
+mysql>USE databasename;
+_________________________________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************************************
+
+
+
+*****************************************************************************************************************************************************************************************
+************************************************** DDL  (DATA DEFINITION LANGUAGE) ******************************************************************************************************
+-----------------------------create new table in a database-------------------------------------------------------------
+mysql>SHOW databases;
+mysql>USE databasename;
+mysql>SHOW tables;
+mysql>CREATE TABLE tablename(attrib VARCHAR(10),attrib2 INT(10));
+mysql>INSERT INTO tablename(attrib,attrib2) VALUES('name',324342);
+________________________________________________________________________________________________________________________
+-----------------------------create new table from old table in a database----------------------------------------------
+mysql>CREATE TABLE <newtablename> AS SELECT * FROM <oldtablename>;				havent tried yet
+mysql>CREATE TABLE <newtablename> AS SELECT <colname>,<colname2> FROM <oldtablename>;
+ex: CREATE TABLE employees AS SELECT name,id,contact,address FROM newrecruitment; 
+________________________________________________________________________________________________________________________
+-----------------------------insert into newtable from oldtable in a database-------------------------------------------
+mysql>INSERT INTO newtablename SELECT * FROM oldtablename;
+mysql>INSERT INTO newtablename SELECT colname,colname FROM oldtablename;		havent tried yet
+ex: INSERT INTO thirdyrstudent SELECT name,contact,address FROM secondyrstudent;
+________________________________________________________________________________________________________________________
+-----------------------------alter command on table---------------------------------------------------------------------
+mysql>ALTER TABLE tablename DROP columnname;			//deletes column from table "temporarily"
+ex: ALTER TABLE student MODIFY name varchar(20) not null;	  //modify schema of table
+mysql>ALTER TABLE tablename ADD columnname type(size); 		//add new column to table
+mysql>ALTER TABLE tablename ADD(colname1 type(size) constraint1,colname2 type(size) constraint2);//allow to add multiple...
+________________________________________________________________________________________________________________________
+------------------------------drop command on table---------------------------------------------------------------------
+mysql>DROP TABLE tablename;					//delete table temporarily
+________________________________________________________________________________________________________________________
+------------------------------truncate command on table-----------------------------------------------------------------
+mysql>TRUNCATE TABLE tablename;					//permanently deletes all the tuples from table
+_________________________________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************************************
+
+
+
+************************************************** DML (DATA MANIPULATION LANGUAGE) *****************************************************************************************************
+*****************************************************************************************************************************************************************************************
+-----------------------------selecting elements from a table------------------------------------------------------------
+mysql>USE databasename;
+mysql>SELECT * FROM tablename;
+mysql>SELECT * columnname FROM tablename;						havent tried yet
+"table alias" ex: SELECT * name FROM student; 
+mysql>SELECT * FROM tablename WHERE condition;
+"column alias" ex: SELECT * FROM student WHERE marks>80;
+mysql>SELECT DISTINCT colname FROM tablename;
+ex: SELECT DISTINCT colour FROM cars;
+________________________________________________________________________________________________________________________
+-----------------------------updating elements of a table---------------------------------------------------------------
+mysql>USE databasename;
+mysql>UPDATE TABLE <tablename> SET <colname> = value WHERE condition;
+ex: UPDATE TABLE student SET percentage=80 WHERE rollno=21;				havent tried yet
+________________________________________________________________________________________________________________________
+------------------------------deleting elements from a table------------------------------------------------------------
+mysql>USE databasename;
+mysql>DELETE * FROM tablename;                                  //deletes temporarily
+mysql>DELETE * attribname FROM tablename;								havent tried yet
+mysql>DELETE * colname FROM tablename WHERE condition;
+ex: DELETE FROM student where studentname='rashmi';
+_________________________________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************************************
+
+
+
+*****************************************************************************************************************************************************************************************
+
+-----------------------------version control on mysql server------------------------------------------------------------
+mysql>commit;
+mysql>savepoint a;										havent tried yet
+mysql>rollback to a;
+_________________________________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************************************

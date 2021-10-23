@@ -1,0 +1,17 @@
+
+how to get out of this:-
+_________________________________________
+mysql> hello
+    ->
+    -> look dash is on the left"
+    "> In doublequote mode now, because doublequote above
+    "> adding another doublequote breaks you out: "
+    -> look a single quote ' here
+    '> in single quote mode now.
+    '> get out, in, then out again with three singlequotes: '''
+    -> now it will listen to your escape code: \c
+mysql> exit
+Bye
+
+C:\>
+________________________________________

@@ -1,0 +1,55 @@
+________________________________________________________________________________________
+************************************ LOGICAL OPERATION'S *******************************
+1.and
+2.or
+3.not
+
+________________________________________________________________________________________
+************************************** SET OPERATION'S *********************************
+note: if we want to retain all duplicates then we must write all ex:" union all"
+	i.e union all will select duplicates also
+
+1.union
+ex: select customer_name from depositor union select customer_name from borrower;
+ex: select customer_name from depositor union all select customer_name from borrower;
+
+2.intersect
+ex: select customer_name from depositor intersect select customer_name from borrower;
+ex: select customer_name from depositor intersect all select customer_name from borrower;
+
+3. except ( for minus  or  difference )
+ex: select customer_name from depositor except select customer_name from borrower;
+ex: select customer_name from depositor except all select customer_name from borrower;
+
+4.cartesian product
+________________________________________________________________________________________
+
+
+________________________________________________________________________________________
+----------------------------------------------------------------------------------------
+________________________________________ JOINS _________________________________________
+********************************* EQUI JOINS (matching) ********************************
+1. " = "
+________________________________________________________________________________________
+**************************** NON EQUI JOINS (non matching) *****************************
+1. " < "
+2. " > "
+3. " ! " 
+________________________________________________________________________________________
+***************************** OUTER JOINS (between tables) *****************************
+1. inner join (select common part between two tables)
+ex:select loan.loanNo,branch from loan inner join borrower where loan.loanNo= borrower.loanNo;
+
+2. left outer (select all from left table)
+3. right outer(select all from right table)
+4. full outer (select all from both tables)
+________________________________________________________________________________________
+******************************** self join (with in a table) ***************************
+________________________________________________________________________________________
+
+difference between union and join
+
+-> "on applying union resultant table will increase vertically while after applying join
+	it will inc. or dec. horizontally"
+-> "union works on simple queries and join works with cartesian products"
+________________________________________________________________________________________
