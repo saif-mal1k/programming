@@ -1,4 +1,6 @@
 .vscode
 .dist
 .mypy_cache
+*.o
+*.exe
 /__pycache__
