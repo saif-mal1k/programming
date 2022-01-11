@@ -1,8 +1,0 @@
-1.to print even and odd no between a range 
-	use list and append even= []
-2.to calculate the frequency of each character in a string 
-	use dict d={} d[i]=count isalpha() isdigit()
-3.to calculate the sum of each didgit in a no
-
-
-

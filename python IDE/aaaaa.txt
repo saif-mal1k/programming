@@ -1,7 +1,0 @@
-def fibo(upto=20):
-	if i=0:
-		return 0
-	elif i==1 or i==2:
-		return 1
-	else:
-		return fibo(n)+fibo(n-1)
