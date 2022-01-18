@@ -139,7 +139,7 @@ return 0;
 
 #### ***2. increment / decrement (++/--)***
 ***example:***
-````C
+```C
 print(a++);     // print a then increment 
 print(++a);     // increment then print a
 print(a--);     // print a then decrement
