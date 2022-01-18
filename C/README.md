@@ -149,6 +149,7 @@ print(--a);     // decrement then print a
 
 #### ***3. bitwise Complementation***
 ~(14)  = 1
+
 ~(0)   = 1
 
 #### ***4. Logical not ( ! )***
@@ -196,8 +197,8 @@ print(--a);     // decrement then print a
 |          | 1100 & 0110 |          | ```101<<6```|
 |          | 0100        |          | 101000000   |
 |          | = 4         |          | = 320       |
-| |        | 12 | 6      | ```>>``` |```13 >> 3```|
-|          | 1100 | 0110 |          |```1101>>3```|
+| \|       | 12 \| 6     | ```>>``` |```13 >> 3```|
+|          | 1100 \| 0110|          |```1101>>3```|
 |          | 1111        |          |         1   |
 |          | = 15        |          | = 1         |
 | ^ ("XOR")| 13 ^ 10     |          |             |
@@ -206,12 +207,12 @@ print(--a);     // decrement then print a
 |          |  = 7        |          |             |
 
 #### table for Logical and Bitwise operators
-| a   | b   | ```a&&b , a&b``` | ```a||b , a|b``` | a^b | !a  | ~b  |
-|:---:|:---:|:---:             | :---:            |:---:|:---:|:---:|
-|   0 |  0  |         0        |         0        |  0  |   1 |  1  |
-|   0 |  1  |         0        |         1        |   1 |   1 |  0  |
-|  1  |  0  |         0        |         1        |   1 |   0 |  1  |
-|   1 |   1 |          1       |         1        |   0 |   0 |  0  |
+| a    | b    | a&&b , a&b       | a\|\|b , a\|b    | a^b       | !a        |   ~b      |
+|:---: |:---: |:---:             | :---:            |:---:      |:---:      |:---:      |
+|   0  |  0   |         0        |         0        |  0        |   1       |  1        |
+|   0  |  1   |         0        |         1        |   1       |   1       |  0        |
+|  1   |  0   |         0        |         1        |   1       |   0       |  1        |
+|   1  |   1  |          1       |         1        |   0       |   0       |  0        |
 
 
 
@@ -229,7 +230,7 @@ Char b = 'a';
 printf("%d",b); // implicit
 d = (int) b ;   // explicit
 ```
-<br/>
+
 ***explanation:*** _d will be having the ASCII value of b i.e d="97" and output will be 97 ._
 
 
@@ -249,8 +250,8 @@ sqrt((int)n)    // √n
 ## Conversion ```#include<ctype.h>```
 the function ***tolower(C)*** returns lower case of C if C is in upper case.
 
-<br/>
 and, you may use ***isspace(C)*** to check if C is a ***space***.
+
 and, you may use ***isdigit(C)*** to check if C is a ***digit***.
 
 
@@ -259,29 +260,31 @@ and, you may use ***isdigit(C)*** to check if C is a ***digit***.
 ## Precedency and Associativity
 | Operator                  | Precedency | Associativity |
 |:---:                      |:---:       |:---:          |
-|``` { , } , ( , ) ```      |     1      |  Left - Right |
-|``` - , ! , ~ , ++ , -- ```|     2      |  Right - Left |
-|```* , / , % ```           |     3      |  Left - Right |
-|``` + , - ```              |     4      |  Left - Right |
-|``` << , >> ```            |     5      |  Left - Right |
-|``` < , <= , > , >= ```    |     6      |  Left - Right |
-|``` == , != ```            |     7      |  Left - Right |
-|``` & ```                  |     8      |  Left - Right |
-|``` ^ ```                  |     9      |  Left - Right |
-|``` | ```                  |     10     |  Left - Right |
-|``` && ```                 |     11     |  Left - Right |
-|``` || ```                 |     12     |  Left - Right |
-|``` ?: ```                 |     13     |  Right - Left |
-|``` = ```                  |     14     |  Right - Left |
-|``` , ```                  |     15     |  Left - Right |
+|```{ , } , ( , )```        |     1      |  Left - Right |
+|```- , ! , ~ , ++ , --```  |     2      |  Right - Left |
+|```* , / , %```            |     3      |  Left - Right |
+|```+ , -```                |     4      |  Left - Right |
+|```<< , >>```              |     5      |  Left - Right |
+|```< , <= , > , >=```      |     6      |  Left - Right |
+|```== , !=```              |     7      |  Left - Right |
+|```&```                    |     8      |  Left - Right |
+|```^```                    |     9      |  Left - Right |
+|  ```\|```                 |     10     |  Left - Right |
+|```&&```                   |     11     |  Left - Right |
+|  ```\|\|```               |     12     |  Left - Right |
+|```?:```                   |     13     |  Right - Left |
+|```=```                    |     14     |  Right - Left |
+|```,```                    |     15     |  Left - Right |
 
 ***note:*** *.* _dot operator has the highest precedency._
 
 
 ## Ternary operator (?:) "Conditional Operator"
 ***syntax:***
-<br/> ``` n = ((Condition)? value1: value2); ``` 
-<br/> _n will get value1 if codition evaluate to true else n will get value2_
+
+``` n = ((Condition)? value1: value2); ``` 
+
+_n will get value1 if codition evaluate to true else n will get value2_
 
 
 &nbsp;
@@ -294,7 +297,7 @@ x*=y+2
 x=x*(y+2) //same effect as above
 ```
 
- applicable for  +,-,*,/,%,>>,<<,&,^,| 
+applicable for  +,-,*,/,%,>>,<<,&,^,\| 
 
 
 &nbsp;
@@ -307,9 +310,15 @@ int a=2, b=4;
 - evaluated from left to right. returns the rightmost value. 
 - this operator has the lowest precedence.
 - its important to use ( ) when used in expression.
+
 ***example:*** 
 ```C
-sum = ( a=2, b=4 , a+b) ; 
+sum = ( a=2, b=4 , a+b) ; // sum = 6
 ```
 - this operator is used in for loop also.
+
+***example:*** 
+```C
+for(i=0;i<10;i++);
+```
 
