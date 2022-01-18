@@ -1,6 +1,6 @@
 # C Programming syntax, Quick reference notes 
 
-![image](images/C-Keywords-1.1.png)
+![image](images/program_flow.png)
 
 
 &nbsp;
@@ -70,7 +70,7 @@ ex: stack, queue, Linked-list
 
 _***note:*** there are 32 keywords in c._
 
-![image](images/program_flow.png)
+![image](images/C-Keywords-1.1.png)
 
 
 &nbsp;
