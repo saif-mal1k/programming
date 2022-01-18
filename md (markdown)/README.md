@@ -106,16 +106,18 @@ int main(){
 <br/> ***example:*** `[Google](https://www.google.com)`
 ***output:*** [Google](https://www.google.com)
 
-### Section link
+### ***Section link***
 what
 
-### Relative links
+### ***Relative links***
 A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
 
 ``[Contribution guidelines for this project](docs/CONTRIBUTING.md)``
 
 
-### adding images
+&nbsp;
+
+### Adding Images
 ***syntax:*** `![This is an image](/link to image)` 
 <br />\****note***\* the `!` mark.
 
@@ -214,26 +216,31 @@ aligning content
 <summary>CLICK ME</summary>
 <p>
 #### We can hide anything, even code!
+  
   ```python
       python("Hello World")
   ```
+  
 </p>
 </details>
 ````
 
 
 Output:
-<details>
-<summary>CLICK ME</summary>
-<p>  
-    #### We can hide anything, even code!
-    ```python
-       print("Hello World")
-    ```
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+  ```python
+      python("Hello World")
+  ```
+
 </p>
 </details>
 
 
+&nbsp;
 
 ## FootNotes
 ```Note
