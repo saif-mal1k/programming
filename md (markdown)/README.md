@@ -209,35 +209,31 @@ aligning content
 
 ## Organizing information with collapsed sections
 ***example:***
-```
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything, even code!
-
-  ```python
-      python("Hello World")
-  ```
-    
-</p>
-</details>
-```
-Output:
+````
 <details>
 <summary>CLICK ME</summary>
 <p>
-
-  #### We can hide anything, even code!
-  
+#### We can hide anything, even code!
   ```python
-      print("Hello World")
+      python("Hello World")
   ```
-  
+</p>
+</details>
+````
+
+
+Output:
+<details>
+<summary>CLICK ME</summary>
+<p>  
+    #### We can hide anything, even code!
+    ```python
+       print("Hello World")
+    ```
 </p>
 </details>
 
 
-&nbsp
 
 ## FootNotes
 ```Note
