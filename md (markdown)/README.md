@@ -124,6 +124,13 @@ A relative link is a link that is relative to the current file. For example, if 
 
 &nbsp;
 
+### Attaching files
+To attach a file to an issue or pull request conversation, drag and drop it into the comment box. Alternatively, you can click the bar at the bottom of the comment box to browse, select, and add a file from your computer.
+![image](https://user-images.githubusercontent.com/63545175/149994313-08f1ed6c-2373-4d61-9443-7b3ece289a7c.png)
+
+
+&nbsp;
+
 ## Using emoji
 You can add emoji to your writing by typing ```:EMOJICODE:```
 <br/>***example:***
