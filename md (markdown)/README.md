@@ -250,10 +250,13 @@ Output:
 
 &nbsp;
 
-## adding page break
+## adding page break / horizontal lines
+
+`---`
 
 ---
 
+`***`
 ***
 
 
