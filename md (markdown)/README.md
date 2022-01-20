@@ -1,4 +1,5 @@
-# Notes for Quick reference to markdown format
+# markdown syntax cheat-sheet
+
 **tip:** use ```ctrl+f``` to quickly look through using keywords.
 
 
@@ -245,6 +246,15 @@ Output:
 
 </p>
 </details>
+
+
+&nbsp;
+
+## adding page break
+
+---
+
+***
 
 
 &nbsp;
