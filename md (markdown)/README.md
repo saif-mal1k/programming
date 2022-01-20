@@ -105,7 +105,17 @@ int main(){
 ***syntax:***
 `[linkText](https://url-of-location)`
 <br/> ***example:*** `[Google](https://www.google.com)`
+
 ***output:*** [Google](https://www.google.com)
+
+***Link with a title***
+`[linkText](https://url-of-location "TITLE")`
+
+***example:*** `[Google](https://www.google.com "goto GOOGLE")`
+
+***output:*** [Google](https://www.google.com "goto GOOGLE")
+
+
 
 ### ***Section link***
 what
