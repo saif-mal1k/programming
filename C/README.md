@@ -183,6 +183,20 @@ return 0;
    <br/>-(-a) = +a
 
    #### ***2. increment / decrement (++/--)***
+   ***Increment ++***
+    The increment operator increases the numeric value of its operand by 1. 
+    <br/>
+    When placed before the operand, it’ll return the incremented value. 
+    <br/>
+    When placed after it, it’ll return the original value and then increments the operand.
+    
+   ***Decrement --***
+    The decrement operator decreases the numeric value of its operand by 1. 
+    <br/>
+    When placed before the operand, it’ll return the decremented value. 
+    <br/>
+    When placed after the operand, it’ll return the original value and then decrements the operand.
+   
    ***example:***
    ```C
    print(a++);     // print a then increment 
