@@ -6,8 +6,7 @@
 ### 1. if else
 <table>
 <tr>
-<td>
-<img width=300 "using it to set column width"/>
+<td width=300>
   
 ***Syntax:***
 ```C
@@ -21,9 +20,7 @@ else
 }
 ```
 </td>
-<td>
-<img width=300 "using it to set column width"/>
-
+<td width=300>
   
 ***example:***
 ```C
@@ -45,8 +42,7 @@ else
 ### 2. else-if ladder
 <table>
   <tr>
-  <td>
-    <img width=300 "using it to set column width"/>
+  <td width=300>
     
 ***Syntax:***
 ```C
@@ -68,8 +64,7 @@ else
 }
 ```
   </td>
-  <td>
-    <img width=300 "using it to set column width"/>
+  <td width=300>
 
 ***example:***
 ```C
