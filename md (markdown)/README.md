@@ -2,6 +2,7 @@
 
 **tip:** use ```ctrl+f``` to quickly look through using keywords.
 
+**note:** identation, spaces and next lines matter in md.
 
 &nbsp;
 
