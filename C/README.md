@@ -167,6 +167,7 @@ printf("%d",c); // output is 15,  why 15? BODMAS rule don't apply
 return 0;
 }
 ```
+**note:** an expression as ``x=0`` or ``i++`` becomes a ***statement***  when it is followed by a semicolon as in ``x=0;`` , ``i++;`` , ``printf(i);`` .
 
 <details>
  <summary> <b><em> types of operator's </em></b></summary>
