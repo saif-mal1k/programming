@@ -1,8 +1,0 @@
-local host :8000
-122.0.0.1:8000
-
-
-python manage.py runserver
-
-
-django-admin project website
