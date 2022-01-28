@@ -167,6 +167,7 @@ printf("%d",c); // output is 15,  why 15? BODMAS rule don't apply
 return 0;
 }
 ```
+**note:** an expression as ``x=0`` or ``i++`` becomes a ***statement***  when it is followed by a semicolon as in ``x=0;`` , ``i++;`` , ``printf(i);`` .
 
 <details>
  <summary> <b><em> types of operator's </em></b></summary>
@@ -215,6 +216,7 @@ return 0;
    ***example:***  !a , means not equal to a. 
     
    </p>
+   <br/>
   </details>
   
    </li> 
@@ -223,63 +225,60 @@ return 0;
      <summary> <b>Binary Operator</b> </summary>
     <p>
       
-    #### ***1. Arithmetic***
+     #### ***1. Arithmetic*** 
+     | operator | example | answer |
+     | :---:    |---------|    ---:|
+     | + | 3 + 2 | 5 |
+     | - | 3 - 2 | 1 |
+     | \* | 3 * 2 | 6 |
+     | / | 3 / 2 | 1.5 |
+     | % | 3 % 2 | 1 |
      
-    | operator | example | answer |
-    | :---:    |---------|    ---:|
-    | + | 3 + 2 | 5 |
-    | - | 3 - 2 | 1 |
-    | \* | 3 * 2 | 6 |
-    | / | 3 / 2 | 1.5 |
-    | % | 3 % 2 | 1 |
-    
-    #### ***2. Relational***
-    
-    | operator | description |
-    | :---:    |-------------|
-    | < | less than |
-    | > | greater than |
-    | <= | less than equal to |
-    | >= | greater than equal to |
-    | == | equal to |
-    | != | not equal to |
-    
-    #### ***3. Logical***
+     #### ***2. Relational***
+     | operator | description |
+     | :---:    |-------------|
+     | < | less than |
+     | > | greater than |
+     | <= | less than equal to |
+     | >= | greater than equal to |
+     | == | equal to |
+     | != | not equal to |
      
-    | operator | description |
-    | :---:    |-------------|
-    | && | true, if both operands are true|
-    | \|\| | true, if either one is true|
-    
-    ***note:***  **" ! "**  is used as unary operator and is a logical operator, ex: !a  .
-    
-    #### ***4. Bitwise operators***
-    - only used for integer values.
-    - firstly break the number(integer value) into its binary.
-    
-    | operator | description | operator | description |
-    | :---:    |-------------| :---:    |-------------|
-    | &        | 12 & 6      | ```<<``` | ```5 << 6```|
-    |          | 1100 & 0110 |          | ```101<<6```|
-    |          | 0100        |          | 101000000   |
-    |          | = 4         |          | = 320       |
-    | \|       | 12 \| 6     | ```>>``` |```13 >> 3```|
-    |          | 1100 \| 0110|          |```1101>>3```|
-    |          | 1111        |          |         1   |
-    |          | = 15        |          | = 1         |
-    | ^ ("XOR")| 13 ^ 10     |          |             |
-    |          | 1101^1010   |          |             |
-    |          | 0111        |          |             |
-    |          |  = 7        |          |             |
-    
-    #### table for Logical and Bitwise operators
-    | a    | b    | a&&b , a&b       | a\|\|b , a\|b    | a^b       | !a        |   ~b      |
-    |:---: |:---: |:---:             | :---:            |:---:      |:---:      |:---:      |
-    |   0  |  0   |         0        |         0        |  0        |   1       |  1        |
-    |   0  |  1   |         0        |         1        |   1       |   1       |  0        |
-    |  1   |  0   |         0        |         1        |   1       |   0       |  1        |
-    |   1  |   1  |          1       |         1        |   0       |   0       |  0        |
-      
+     #### ***3. Logical***
+     | operator | description |
+     | :---:    |-------------|
+     | && | true, if both operands are true|
+     | \|\| | true, if either one is true|
+     
+     ***note:***  **" ! "**  is used as unary operator and is a logical operator, ex: !a  .
+     
+     #### ***4. Bitwise operators***
+     - only used for integer values.
+     - firstly break the number(integer value) into its binary.
+     
+     | operator | description | operator | description |
+     | :---:    |-------------| :---:    |-------------|
+     | &        | 12 & 6      | ```<<``` | ```5 << 6```|
+     |          | 1100 & 0110 |          | ```101<<6```|
+     |          | 0100        |          | 101000000   |
+     |          | = 4         |          | = 320       |
+     | \|       | 12 \| 6     | ```>>``` |```13 >> 3```|
+     |          | 1100 \| 0110|          |```1101>>3```|
+     |          | 1111        |          |         1   |
+     |          | = 15        |          | = 1         |
+     | ^ ("XOR")| 13 ^ 10     |          |             |
+     |          | 1101^1010   |          |             |
+     |          | 0111        |          |             |
+     |          |  = 7        |          |             |
+     
+     #### table for Logical and Bitwise operators
+     | a    | b    | a&&b , a&b       | a\|\|b , a\|b    | a^b       | !a        |   ~b      |
+     |:---: |:---: |:---:             | :---:            |:---:      |:---:      |:---:      |
+     |   0  |  0   |         0        |         0        |  0        |   1       |  1        |
+     |   0  |  1   |         0        |         1        |   1       |   1       |  0        |
+     |  1   |  0   |         0        |         1        |   1       |   0       |  1        |
+     |   1  |   1  |          1       |         1        |   0       |   0       |  0        |
+       
     </p>
     </details>
    </li>
@@ -287,7 +286,7 @@ return 0;
 
 &nbsp;
 
-## Ternary operator (?:) "Conditional Operator" 
+### Ternary operator (?:) "Conditional Operator" 
 ***syntax:***
 ```C
 n = ((Condition)? value1: value2);
@@ -297,7 +296,7 @@ _n will get value1 if codition evaluate to true else n will get value2_.
  
 &nbsp;
 
-## Assignment operator
+### Assignment operator
 ```C
 i=i+2
 i+=2    //same effect as above
@@ -310,7 +309,7 @@ applicable for  +,-,*,/,%,>>,<<,&,^,\|
 
 &nbsp;
 
-## Comma Operator ( , )
+### Comma Operator ( , )
 ***example:*** 
 ```C
 int a=2, b=4;
@@ -327,7 +326,7 @@ sum = ( a=2, b=4 , a+b) ; // sum = 6
 
 ***example:*** 
 ```C
-for(i=0;i<10;i++);
+for(i=0, j=9; i!=j; i++, j--);
 ```
                    
 </details>
