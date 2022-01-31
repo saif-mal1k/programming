@@ -152,13 +152,16 @@ add(1, 5);
 <br/>function themselves are always external.
 <br/> C does not allow function to be defined inside other functions.
 
+***example:*** of external variables
+```C
+# define MAX 100 
+# define NO '99'
+```
+**note:** don't use **``;``**
+
 ***automatic variables*** are internal to function. they come into existance when the function is external and disappear when left.
 
-***example:***
-```C
-# define MAX 100 , # define NO '99'
-```
-**note:** don't use **;**
+
 
 <br/>
 
