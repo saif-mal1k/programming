@@ -10,21 +10,10 @@ for the recursion to terminate there is a termination condition, where function 
 
 <br/>
 
-## Stack Overflow error
-while solving a recursive problem the solution space for the problem converges to base condition.
-<br/>***the base condition is important***, otherwise the function will keep on calling itself till the stack is exhausted.
-exhausted stack won't be able to store variables for next recursion and hence is called _stack overflow error_. 
 
-<br/>
-
-## tail Recursion
-- A recursive function is tail recursive when a recursive call is the last thing executed by the function. 
-- tail recursive functions can be optimized by the compiler, hence better choice.
-
-<br/>
 
 ## direct vs indirect recursion
-
+[watch this video](https://youtu.be/t9whckmAEq0)
 
 
 <br/>
@@ -76,3 +65,23 @@ exhausted stack won't be able to store variables for next recursion and hence is
 </td>
 </tr>
 </table>
+
+<br/>
+
+## Stack Overflow error
+while solving a recursive problem the solution space for the problem converges to base condition.
+<br/>***the base condition is important***, otherwise the function will keep on calling itself till the stack is exhausted.
+exhausted stack won't be able to store variables for next recursion and hence is called _stack overflow error_. 
+
+<br/>
+
+## how to avoid Stack Overflow error
+### tail Recursion | ***tail call optimization***
+- A recursive function is tail recursive when a recursive call is the last thing executed by the function. 
+- tail recursive functions can be optimized by the compiler, hence better choice.
+- [watch this video first](https://youtu.be/Wpkh5YSqwqg)
+- [then watch this video](https://youtu.be/HIt_GPuD7wk)
+- [then watch this video](https://youtu.be/_JtPhF8MshA)
+- 
+
+<br/>
