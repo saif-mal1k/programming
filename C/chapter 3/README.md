@@ -64,7 +64,31 @@ for the recursion to terminate there is a termination condition, where function 
 - harder to implement in complex problems
 </td>
 </tr>
+<tr>
+<td>
+
+example: in factorial program using recursion.
+
+Time complexity: depend on number of recursive calls.
+i.e O(n)
+
+Space Complexity: depend on call stack that increases as the recursive calls increases 
+i.e O(n)
+</td>
+<td>
+
+example: in factorial program using iteration.
+
+Time complexity: depend on number of iterations.
+i.e O(n)
+
+Space Complexity: same variable are utilised in each iteration.
+hence, Constant i.e O(1)
+</td>
+</tr>
 </table>
+Note: Every recursive problem can be solved through iteration. it's a good choice to convert recursion to iteration. if it is easy to implement and solve a problem using iteration prefer iteration.
+https://youtu.be/hK01dEvdN_s
 
 <br/>
 
