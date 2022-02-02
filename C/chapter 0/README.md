@@ -175,64 +175,217 @@ return 0;
      <summary> <b>Binary Operator</b> </summary>
     <p>
       
-     #### ***1. Arithmetic*** 
-     | operator | example | answer |
-     | :---:    |---------|    ---:|
-     | + | 3 + 2 | 5 |
-     | - | 3 - 2 | 1 |
-     | \* | 3 * 2 | 6 |
-     | / | 3 / 2 | 1.5 |
-     | % | 3 % 2 | 1 |
+ #### ***1. Arithmetic***
      
-     #### ***2. Relational***
-     | operator | description |
-     | :---:    |-------------|
-     | < | less than |
-     | > | greater than |
-     | <= | less than equal to |
-     | >= | greater than equal to |
-     | == | equal to |
-     | != | not equal to |
+ <table>
+     <tr>
+         <td> <b> operator <b/> </td>
+         <td> <b> example <b/> </td>
+         <td> <b> answer <b/> </td>
+     </tr>
+     <tr>
+         <td>+</td>
+         <td>3 + 2</td>
+         <td>5</td>
+     </tr>
+     <tr>
+         <td>-</td>
+         <td>3 - 2</td>
+         <td>1</td>
+     </tr>
+     <tr>
+         <td>\*</td>
+         <td>3 * 2</td>
+         <td>6</td>
+     </tr>
+     <tr>
+         <td>/</td>
+         <td>3 / 2</td>
+         <td>1.5</td>
+     </tr>
+     <tr>
+         <td>%</td>
+         <td>3 % 2</td>
+         <td>1</td>
+     </tr>
+ </table>
      
-     #### ***3. Logical***
-     | operator | description |
-     | :---:    |-------------|
-     | && | true, if both operands are true|
-     | \|\| | true, if either one is true|
+ #### ***2. Relational***     
+ <table>
+     <tr>
+         <td> <b> operator <b/> </td>
+         <td> <b> description <b/> </td>
+     </tr>
+     <tr>
+         <td>&amp;&amp;</td>
+         <td>true, if both operands are true</td>
+     </tr>
+     <tr>
+         <td>\|\|</td>
+         <td>true, if either one is true</td>
+     </tr>
+ </table>
      
-     ***note:***  **" ! "**  is used as unary operator and is a logical operator, ex: !a  .
+ #### ***3. Logical***
+ <table>
+     <tr>
+         <td> <b> operator <b/> </td>
+         <td> <b> description <b/> </td>
+     </tr>
+     <tr>
+         <td>&amp;&amp;</td>
+         <td>true, if both operands are true</td>
+     </tr>
+     <tr>
+         <td>\|\|</td>
+         <td>true, if either one is true</td>
+     </tr>
+ </table>
+      
+***note:***  **" ! "**  is used as unary operator and is a logical operator, ex: !a  .
      
-     #### ***4. Bitwise operators***
-     - only used for integer values.
-     - firstly break the number(integer value) into its binary.
+#### ***4. Bitwise operators***
+<ul type=disc>
+ <li> only used for integer values.</li>
+ <li> firstly break the number(integer value) into its binary.</li>
+</ul>
+
+<br/>
      
-     | operator | description | operator | description |
-     | :---:    |-------------| :---:    |-------------|
-     | &        | 12 & 6      | ```<<``` | ```5 << 6```|
-     |          | 1100 & 0110 |          | ```101<<6```|
-     |          | 0100        |          | 101000000   |
-     |          | = 4         |          | = 320       |
-     | \|       | 12 \| 6     | ```>>``` |```13 >> 3```|
-     |          | 1100 \| 0110|          |```1101>>3```|
-     |          | 1111        |          |         1   |
-     |          | = 15        |          | = 1         |
-     | ^ ("XOR")| 13 ^ 10     |          |             |
-     |          | 1101^1010   |          |             |
-     |          | 0111        |          |             |
-     |          |  = 7        |          |             |
-     
-     #### table for Logical and Bitwise operators
-     | a    | b    | a&&b , a&b       | a\|\|b , a\|b    | a^b       | !a        |   ~b      |
-     |:---: |:---: |:---:             | :---:            |:---:      |:---:      |:---:      |
-     |   0  |  0   |         0        |         0        |  0        |   1       |  1        |
-     |   0  |  1   |         0        |         1        |   1       |   1       |  0        |
-     |  1   |  0   |         0        |         1        |   1       |   0       |  1        |
-     |   1  |   1  |          1       |         1        |   0       |   0       |  0        |
+<table>
+     <tr>
+         <td> <b> operator <b/> </td>
+         <td> <b> description <b/> </td>
+         <td> <b> operator <b/> </td>
+         <td> <b> description <b/> </td>
+     </tr>
+     <tr>
+         <td>&amp;</td>
+         <td>12 &amp; 6</td>
+         <td>```&lt;&lt;```</td>
+         <td>```5 &lt;&lt; 6```</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>1100 &amp; 0110</td>
+         <td></td>
+         <td>```101&lt;&lt;6```</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>0100</td>
+         <td></td>
+         <td>101000000</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>= 4</td>
+         <td></td>
+         <td>= 320</td>
+     </tr>
+     <tr>
+         <td>\|</td>
+         <td>12 \| 6</td>
+         <td>```&gt;&gt;```</td>
+         <td>```13 &gt;&gt; 3```</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>1100 \| 0110</td>
+         <td></td>
+         <td>```1101&gt;&gt;3```</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>1111</td>
+         <td></td>
+         <td>1</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>= 15</td>
+         <td></td>
+         <td>= 1</td>
+     </tr>
+     <tr>
+         <td>^ ("XOR")</td>
+         <td>13 ^ 10</td>
+         <td></td>
+         <td></td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>1101^1010</td>
+         <td></td>
+         <td></td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>0111</td>
+         <td></td>
+         <td></td>
+     </tr>
+     <tr>
+         <td></td>
+         <td>= 7</td>
+         <td></td>
+         <td></td>
+     </tr>
+ </table>
+      
+#### table for Logical and Bitwise operators
+ <table>
+     <tr>
+      <td> <b> a </b> </td>
+         <td> <b> b <b/> </td>
+         <td> <b> a&amp;&amp;b , a&amp;b <b/> </td>
+         <td> <b> a\|\|b , a\|b <b/> </td>
+         <td> <b> a^b <b/> </td>
+         <td> <b> !a <b/> </td>
+         <td> <b> ~b <b/> </td>
+     </tr>
+     <tr>
+         <td>0</td>
+         <td>0</td>
+         <td>0</td>
+         <td>0</td>
+         <td>0</td>
+         <td>1</td>
+         <td>1</td>
+     </tr>
+     <tr>
+         <td>0</td>
+         <td>1</td>
+         <td>0</td>
+         <td>1</td>
+         <td>1</td>
+         <td>1</td>
+         <td>0</td>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td>0</td>
+         <td>0</td>
+         <td>1</td>
+         <td>1</td>
+         <td>0</td>
+         <td>1</td>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td>1</td>
+         <td>1</td>
+         <td>1</td>
+         <td>0</td>
+         <td>0</td>
+         <td>0</td>
+     </tr>
+ </table>
        
-    </p>
-    </details>
-   </li>
-  </ol>
+</p>
+</details>
+</li>
+</ol>
 
 &nbsp;
 
