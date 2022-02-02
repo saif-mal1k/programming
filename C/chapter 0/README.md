@@ -179,49 +179,49 @@ return 0;
      
  <table>
      <tr>
-         <td> <b> operator <b/> </td>
-         <td> <b> example <b/> </td>
-         <td> <b> answer <b/> </td>
+         <td align=center > <b> operator <b/> </td>
+         <td align=center > <b> example <b/> </td>
+         <td align=center > <b> answer <b/> </td>
      </tr>
      <tr>
-         <td>+</td>
-         <td>3 + 2</td>
-         <td>5</td>
+         <td align=center >+</td>
+         <td align=center >3 + 2</td>
+         <td align=center >5</td>
      </tr>
      <tr>
-         <td>-</td>
-         <td>3 - 2</td>
-         <td>1</td>
+         <td align=center >-</td>
+         <td align=center >3 - 2</td>
+         <td align=center >1</td>
      </tr>
      <tr>
-         <td>\*</td>
-         <td>3 * 2</td>
-         <td>6</td>
+         <td align=center > * </td>
+         <td align=center >3 * 2</td>
+         <td align=center >6</td>
      </tr>
      <tr>
-         <td>/</td>
-         <td>3 / 2</td>
-         <td>1.5</td>
+         <td align=center >/</td>
+         <td align=center >3 / 2</td>
+         <td align=center >1.5</td>
      </tr>
      <tr>
-         <td>%</td>
-         <td>3 % 2</td>
-         <td>1</td>
+         <td align=center >%</td>
+         <td align=center >3 % 2</td>
+         <td align=center >1</td>
      </tr>
  </table>
      
  #### ***2. Relational***     
  <table>
      <tr>
-         <td> <b> operator <b/> </td>
-         <td> <b> description <b/> </td>
+         <td align=center > <b> operator <b/> </td>
+         <td align=center > <b> description <b/> </td>
      </tr>
      <tr>
-         <td>&amp;&amp;</td>
+         <td align=center >&amp;&amp;</td>
          <td>true, if both operands are true</td>
      </tr>
      <tr>
-         <td>\|\|</td>
+         <td align=center > || </td>
          <td>true, if either one is true</td>
      </tr>
  </table>
@@ -229,15 +229,15 @@ return 0;
  #### ***3. Logical***
  <table>
      <tr>
-         <td> <b> operator <b/> </td>
-         <td> <b> description <b/> </td>
+         <td align=center > <b> operator <b/> </td>
+         <td align=center > <b> description <b/> </td>
      </tr>
      <tr>
-         <td>&amp;&amp;</td>
+         <td align=center >&amp;&amp;</td>
          <td>true, if both operands are true</td>
      </tr>
      <tr>
-         <td>\|\|</td>
+         <td align=center > || </td>
          <td>true, if either one is true</td>
      </tr>
  </table>
@@ -254,28 +254,28 @@ return 0;
      
 <table>
      <tr>
-         <td> <b> operator <b/> </td>
-         <td> <b> description <b/> </td>
-         <td> <b> operator <b/> </td>
-         <td> <b> description <b/> </td>
+         <td align=center > <b> operator <b/> </td>
+         <td align=center > <b> description <b/> </td>
+         <td align=center > <b> operator <b/> </td>
+         <td align=center > <b> description <b/> </td>
      </tr>
      <tr>
-         <td>&amp;</td>
-         <td>12 &amp; 6</td>
-         <td>```&lt;&lt;```</td>
-         <td>```5 &lt;&lt; 6```</td>
+         <td align=center >&amp;</td>
+         <td align=center >12 &amp; 6</td>
+         <td align=center >```&lt;&lt;```</td>
+         <td align=center >```5 &lt;&lt; 6```</td>
      </tr>
      <tr>
-         <td></td>
-         <td>1100 &amp; 0110</td>
-         <td></td>
-         <td>```101&lt;&lt;6```</td>
+         <td align=center ></td>
+         <td align=center >1100 &amp; 0110</td>
+         <td align=center ></td>
+         <td align=center >```101&lt;&lt;6```</td>
      </tr>
      <tr>
-         <td></td>
-         <td>0100</td>
-         <td></td>
-         <td>101000000</td>
+         <td align=center ></td>
+         <td align=center >0100</td>
+         <td align=center ></td>
+         <td align=center >101000000</td>
      </tr>
      <tr>
          <td></td>
@@ -284,22 +284,22 @@ return 0;
          <td>= 320</td>
      </tr>
      <tr>
-         <td>\|</td>
-         <td>12 \| 6</td>
-         <td>```&gt;&gt;```</td>
-         <td>```13 &gt;&gt; 3```</td>
+         <td align=center > | </td>
+         <td align=center >12 | 6</td>
+         <td align=center >```&gt;&gt;```</td>
+         <td align=center >```13 &gt;&gt; 3```</td>
      </tr>
      <tr>
-         <td></td>
-         <td>1100 \| 0110</td>
-         <td></td>
-         <td>```1101&gt;&gt;3```</td>
+         <td align=center ></td>
+         <td align=center >1100  | 0110</td>
+         <td align=center ></td>
+         <td align=center >```1101&gt;&gt;3```</td>
      </tr>
      <tr>
-         <td></td>
-         <td>1111</td>
-         <td></td>
-         <td>1</td>
+         <td align=center ></td>
+         <td align=center >1111</td>
+         <td align=center ></td>
+         <td align=center >1</td>
      </tr>
      <tr>
          <td></td>
@@ -308,77 +308,77 @@ return 0;
          <td>= 1</td>
      </tr>
      <tr>
-         <td>^ ("XOR")</td>
-         <td>13 ^ 10</td>
-         <td></td>
-         <td></td>
+         <td align=center >^ ("XOR")</td>
+         <td align=center >13 ^ 10</td>
+         <td align=center ></td>
+         <td align=center ></td>
      </tr>
      <tr>
-         <td></td>
-         <td>1101^1010</td>
-         <td></td>
-         <td></td>
+         <td align=center ></td>
+         <td align=center >1101^1010</td>
+         <td align=center ></td>
+         <td align=center ></td>
      </tr>
      <tr>
-         <td></td>
-         <td>0111</td>
-         <td></td>
-         <td></td>
+         <td align=center ></td>
+         <td align=center >0111</td>
+         <td align=center ></td>
+         <td align=center ></td>
      </tr>
      <tr>
-         <td></td>
-         <td>= 7</td>
-         <td></td>
-         <td></td>
+         <td align=center ></td>
+         <td align=center >= 7</td>
+         <td align=center ></td>
+         <td align=center ></td>
      </tr>
  </table>
       
 #### table for Logical and Bitwise operators
  <table>
      <tr>
-      <td> <b> a </b> </td>
-         <td> <b> b <b/> </td>
-         <td> <b> a&amp;&amp;b , a&amp;b <b/> </td>
-         <td> <b> a\|\|b , a\|b <b/> </td>
-         <td> <b> a^b <b/> </td>
-         <td> <b> !a <b/> </td>
-         <td> <b> ~b <b/> </td>
+         <td align=center > <b> a </b> </td>
+         <td align=center > <b> b <b/> </td>
+         <td align=center > <b> a&amp;&amp;b , a&amp;b <b/> </td>
+         <td align=center > <b> a || b , a | b <b/> </td>
+         <td align=center > <b> a^b <b/> </td>
+         <td align=center > <b> !a <b/> </td>
+         <td align=center > <b> ~b <b/> </td>
      </tr>
      <tr>
-         <td>0</td>
-         <td>0</td>
-         <td>0</td>
-         <td>0</td>
-         <td>0</td>
-         <td>1</td>
-         <td>1</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
      </tr>
      <tr>
-         <td>0</td>
-         <td>1</td>
-         <td>0</td>
-         <td>1</td>
-         <td>1</td>
-         <td>1</td>
-         <td>0</td>
+         <td align=center >0</td>
+         <td align=center >1</td>
+         <td align=center >0</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
+         <td align=center >0</td>
      </tr>
      <tr>
-         <td>1</td>
-         <td>0</td>
-         <td>0</td>
-         <td>1</td>
-         <td>1</td>
-         <td>0</td>
-         <td>1</td>
+         <td align=center >1</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
+         <td align=center >0</td>
+         <td align=center >1</td>
      </tr>
      <tr>
-         <td>1</td>
-         <td>1</td>
-         <td>1</td>
-         <td>1</td>
-         <td>0</td>
-         <td>0</td>
-         <td>0</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
+         <td align=center >1</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
+         <td align=center >0</td>
      </tr>
  </table>
        
