@@ -88,7 +88,8 @@ hence, Constant i.e O(1)
 </tr>
 </table>
 Note: Every recursive problem can be solved through iteration. it's a good choice to convert recursion to iteration. if it is easy to implement and solve a problem using iteration prefer iteration.
-https://youtu.be/hK01dEvdN_s
+
+[watch this video](https://youtu.be/hK01dEvdN_s)
 
 
 <br/>
@@ -107,6 +108,5 @@ exhausted stack won't be able to store variables for next recursion and hence is
 - [watch this video first](https://youtu.be/Wpkh5YSqwqg)
 - [then watch this video](https://youtu.be/HIt_GPuD7wk)
 - [then watch this video](https://youtu.be/_JtPhF8MshA)
-- 
 
 <br/>
