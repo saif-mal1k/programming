@@ -18,10 +18,67 @@ for the recursion to terminate there is a termination condition, where function 
 
 <br/>
 
-## Recursive function in Stack
-<div align=center>
-<img src="a9c1eec7-6555-40c6-bd24-1e69693e85d9.jpg" width=600 height=300>
-</div>
+## the Call Stack
+- when a function is called, the system sets aside space in memory for that function to do its necessary work.
+<br/> these chunks of memory are called stack frames or function frames.
+
+- more than one function's stack frame may exist in memory at a given time, but only one ("the most recently called" or "the one at top of call stack") is executing or doing its work at a time.
+
+- these stack frames are arranged in a **stack**. The frame for the most recently called function is always on the top of the stack.
+
+- when a new function is called, from inside the caller function. the new function is pushed onto the top of the stack and this new function becomes the active frame.
+
+- when a function finishes its work, its frame is popped off of the stack, and the frame immediately below it becomes the new active function on top of the stack, this function picks up immediately where it paused for the above popped function.
+
+***example:*** 
+<table>
+<tr>
+  <td> <b><em> consider this factorial program. <b></em> </td>
+  <td> <b><em>  Call Stack  <b></em> </td>
+</tr>
+<td>
+    
+```C
+#include <stdio.h>
+
+int factorial(int number){
+  if (number == 1)
+    return 1;
+  else
+    return (number * factorial(number - 1));
+}
+
+int main(){
+  printf("%d", factorial(5));
+  return 0;
+}
+
+```
+</td>
+<td>    
+
+<img src="call_stack_of_factorial.gif" width="300">
+</td>
+<tr>
+</tr>
+<tr>
+<td colspan="2">
+  
+***explanation:*** when we run the code, the main function is called by the operating system, the system allocates space for main in memory(in the stack) the main function starts doing its work, when the main function encounters printf() function it calls printf and pauses for it. 
+
+in the call stack, memory is allocated to printf and its frame is set on top of main(), the printf start its work and when it encounters factorial() function it calls factorial and pauses for it.
+
+in the call stack, memory is allocated to factorial and its frame is set on top of printf(), it starts its work and soon all the required function get their frame in call stack.
+  
+when the function at top in call stack finishes its work, the frame below it becomes active and the function resumes from where it paused and soon all the functions get executed.
+
+[watch this video for more](https://youtu.be/aCPkszeKRa4)
+  
+</td>
+</tr>
+</table>
+  
+<br/>    
 
 <br/>
 
