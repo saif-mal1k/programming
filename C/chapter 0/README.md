@@ -56,7 +56,7 @@
   d = (int) b ;   // explicit
   ```
   
-  ***explanation:*** _d will be having the ASCII value of b i.e d="97" and output will be 97 ._
+  ***explanation:*** _d will be having the ASCII value of b i.e d="98" and output will be 98 ._
   
  </p>
 </details>
