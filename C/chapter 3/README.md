@@ -83,12 +83,171 @@ when the function at top in call stack finishes its work, the frame below it bec
 <br/>
 
 ## examples of Recursion
+<details>
+  <summary>
+ <b><em>1. Factorial of a number </b></em>
+  </summary>
+  <p>
+    
+<table>
+  <tr>
+    <td align=center><b><em> Using Recursion </b></em></td>
+    <td align=center><b><em> Using Iteration </b></em></td>
+  </tr>
+<tr>
+<td width=300>
+  
+```C
+int factorial(int number){
+  if(number==1)
+    return 1;
+  else
+    return number*factorial(number-1);
+};
 
-### 1. binary search using recursion
+int main() {
+  printf("%d",factorial(5));
+  return 0;
+}
+```
+</td>
+<td width=300>
+  
+```C
 
-### 2. fibonacci series
+int main() {
+  int number=5, ans=1;
+  
+  while(number>1){
+    ans*=number;
+    number--;
+  }
+  printf("factorial is: %d",ans);
+  
+  return 0;
+}
 
-### 3. Tower of Hanoi using recursion
+```
+</td>
+</tr>
+</table>
+  </p>
+</details>
+
+<details>
+  <summary>
+  <b><em> 2. fibonacci series </b></em>
+  </summary>
+  <p>
+     
+<table>
+  <tr>
+    <td align=center><b><em> Using Recursion </b></em></td>
+    <td align=center><b><em> Using Iteration </b></em></td>
+  </tr>
+<tr>
+<td width=300>
+  
+```C
+
+```
+</td>
+<td width=300>
+  
+
+```C
+
+int main() {
+  int noOfTimes=7, pre, next, ans;
+  int i=0;
+  
+  while(i<noOfTimes){
+    if (i==0){
+      printf("%d ",i);
+      pre=i;
+    }
+    else if(i==1){
+      printf("%d ",i);
+      next=i;
+    }
+    else {
+      ans=pre+next;
+      printf("%d ",ans);
+      
+      pre=next;
+      next=ans;
+    }
+    i++;
+  }
+  
+  return 0;
+}
+
+
+```
+</td>
+</tr>
+</table>   
+  </p>
+</details>
+  
+<details>
+  <summary>
+    <b><em> 3. binary search using recursion </b></em>
+  </summary>
+  <p>
+    
+<table>
+  <tr>
+    <td align=center><b><em> Using Recursion </b></em></td>
+    <td align=center><b><em> Using Iteration </b></em></td>
+  </tr>
+<tr>
+<td width=300>
+  
+```C
+
+```
+</td>
+<td width=300>
+   
+```C
+
+```
+</td>
+</tr>
+</table>    
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b><em> 4. Tower of Hanoi using recursion</b></em>
+  </summary>
+  <p>
+    
+<table>
+  <tr>
+    <td align=center><b><em> Using Recursion </b></em></td>
+    <td align=center><b><em> Using Iteration </b></em></td>
+  </tr>
+<tr>
+<td width=300>
+  
+```C
+
+```
+</td>
+<td width=300>
+  
+```C
+
+```
+</td>
+</tr>
+</table>    
+  </p>
+</details>
 
 
 
@@ -98,11 +257,11 @@ when the function at top in call stack finishes its work, the frame below it bec
 ## Tradeoffs between Recursion and Iteration
 <table align=center>
 <tr>
-<td width=300 align=center>
+<td width=400 align=center>
 
 ***Recursion***
 </td>
-<td width=300 align=center>
+<td width=400 align=center>
 
 ***Iteration***
 </td>
@@ -124,27 +283,28 @@ when the function at top in call stack finishes its work, the frame below it bec
 <tr>
 <td>
 
-example: in factorial program using recursion.
+**example:** in factorial program using recursion.
 
-Time complexity: depend on number of recursive calls.
+**Time complexity:** depend on number of recursive calls.
 i.e O(n)
 
-Space Complexity: depend on call stack that increases as the recursive calls increases 
+**Space Complexity:** depend on call stack that increases as the recursive calls increases 
 i.e O(n)
 </td>
 <td>
 
-example: in factorial program using iteration.
+**example:** in factorial program using iteration.
 
-Time complexity: depend on number of iterations.
+**Time complexity:** depend on number of iterations.
 i.e O(n)
 
-Space Complexity: same variable are utilised in each iteration.
+**Space Complexity:** same variables are utilised in each iteration.
 hence, Constant i.e O(1)
 </td>
 </tr>
 </table>
-Note: Every recursive problem can be solved through iteration. it's a good choice to convert recursion to iteration. if it is easy to implement and solve a problem using iteration prefer iteration.
+    
+***Note:*** Every recursive problem can be solved through iteration. it's a good choice to convert recursion to iteration. if it is easy to implement and solve a problem using iteration prefer iteration.
 
 [watch this video](https://youtu.be/hK01dEvdN_s)
 
@@ -167,3 +327,18 @@ exhausted stack won't be able to store variables for next recursion and hence is
 - [then watch this video](https://youtu.be/_JtPhF8MshA)
 
 <br/>
+
+### ***examples of tail recursion***
+<details>
+  <summary>
+    <b><em> 1. Factorial of a number </b></em>
+  </summary>
+  <p>
+  
+```C
+
+```
+  </p>
+</details>
+
+
