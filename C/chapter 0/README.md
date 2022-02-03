@@ -50,6 +50,7 @@
   _when specified by programer_ <br/>
   ***example:***
   ```C
+  int d;
   Char b = 'a';
   printf("%d",b); // implicit
   d = (int) b ;   // explicit
