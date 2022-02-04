@@ -134,6 +134,8 @@ add(1, 5);
 </tr>
 </table>
 
+***note:*** _c does not allow default arguement._ 
+
 <br/>
 
 # the main function
