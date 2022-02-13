@@ -1,7 +1,41 @@
 # Recursion
 recursion is a programming technique using function or algorithm that calls itself,
 <br/> one or more times until a specified condition is met.
+<details>
+  <summary>
+    <b><em> example: </em></b>
+  </summary>
+<p>
 
+```C
+// fibonacci series using Recursion
+# include<stdio.h>
+
+int fibo(int n,int a, int b)
+{
+	if(n==0)
+		return 1;
+
+	if (b==0)
+	{
+		printf("%d ",b);
+		fibo(n-1, 0, 1);
+	}
+	else
+	{
+		printf("%d ",b);
+		fibo(n-1, b, a+b);
+	}	
+}
+
+int main()
+{
+	fibo(10,0,0);
+	return 0;
+}
+```
+</p>
+</details>
 <br/>
 
 ## base Condition for recursive calls
@@ -149,7 +183,30 @@ int main() {
 <td width=300>
   
 ```C
+# include<stdio.h>
 
+int fibo(int n,int a, int b)
+{
+	if(n==0)
+		return 1;
+
+	if (b==0)
+	{
+		printf("%d ",b);
+		fibo(n-1, 0, 1);
+	}
+	else
+	{
+		printf("%d ",b);
+		fibo(n-1, b, a+b);
+	}	
+}
+
+int main()
+{
+	fibo(10,0,0);
+	return 0;
+}
 ```
 </td>
 <td width=300>
@@ -399,15 +456,46 @@ int main()
 <br/>    
     
 ###  how is tail recursion better than head recursion ?
-&nbsp; &nbsp; in head recursion (regular recursion) when the recursive call returns there is an expression to be evaluated.
 <table align=center>
 <tr>
-<td width=450>
-  <b> Factorial of a Number </b>
+<td width=450 align=center>
+  <b> Head Recursion </b>
 </td>
-<td width=450>
-  <b> Fibonacci Series </b>
+<td width=450 align=center>
+  <b> Tail Recursion </b>
 </td>
+</tr>
+<tr>
+<td>
+
+<b> Factorial of a Number </b>  
+**ex:** 
+```C++
+   return (n*factorial(n-1));
+```
+</td>
+<td>
+
+<br/>
+  
+**ex:**
+```C++
+    return (factorial(n-1, acc*n ));
+```
+</td>
+</tr>
+<tr>
+<td>
+  
+- in head recursion (regular recursion) when the recursive call returns there is an expression to be evaluated.
+- when ``factrorial(n-1)`` returns then only ``n*factorial(n-1)`` will be evaluated.
+</td>
+<td>
+  
+- as recursive call is the last thing executed.
+- there is nothing to be evaluated, when recursive call returns.
+- hence, there is no need to keep record of previous state.
+</td>  
 </tr>
 <tr>
 <td>
