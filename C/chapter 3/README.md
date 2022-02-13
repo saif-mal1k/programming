@@ -49,11 +49,11 @@ for the recursion to terminate there is a termination condition, where function 
 ## direct vs indirect recursion
 <table align=center>
 <tr>
-<td width=300>
+<td width=400 align=center>
 	
 ![2](https://user-images.githubusercontent.com/63545175/153750738-5bd2141a-9d2c-4387-8f6c-f998614e7089.png)
 </td>
-<td width=300>
+<td width=400 align=center>
 	
 
 ![1](https://user-images.githubusercontent.com/63545175/153750733-6c71bbf0-5ea2-4921-8eba-74e910a35859.png)
