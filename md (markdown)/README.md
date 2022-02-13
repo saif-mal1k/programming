@@ -143,6 +143,13 @@ To attach a file to an issue or pull request conversation, drag and drop it into
 
 <br/>
 
+## Adding CSS in ReadMe
+<a href="https://github.com/sindresorhus/css-in-readme-like-wat" title="https://github.com/sindresorhus/css-in-readme-like-wat"> read this </a>
+<a href="https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo/51956450#:~:text=You%20can%20add%20some%20HTML,tag%20in%20your%20GitHub%20README." title="https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo/51956450#:~:text=You%20can%20add%20some%20HTML,tag%20in%20your%20GitHub%20README."> and this </a>
+
+
+<br/>
+
 ## Using emoji
 You can add emoji to your writing by typing ```:EMOJICODE:```
 <br/>***example:***
@@ -270,13 +277,6 @@ Output:
 
 `***`
 ***
-
-
-&nbsp;
-
-## Adding CSS in ReadMe
-<a href="https://github.com/sindresorhus/css-in-readme-like-wat" title="https://github.com/sindresorhus/css-in-readme-like-wat"> read this </a>
-<a href="https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo/51956450#:~:text=You%20can%20add%20some%20HTML,tag%20in%20your%20GitHub%20README." title="https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo/51956450#:~:text=You%20can%20add%20some%20HTML,tag%20in%20your%20GitHub%20README."> and this </a>
 
 
 <br/>
