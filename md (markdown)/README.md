@@ -4,14 +4,14 @@
 
 **note:** identation, spaces and next lines matter in md.
 
-&nbsp;
+<br/>
 
 ## comments
 ```<!-- This content will not appear in the rendered Markdown -->```
 <!-- This content will not appear in the rendered Markdown -->
 
 
-&nbsp;
+<br/>
 
 ## HEADING
 |syntax            | _priority_ |
@@ -24,7 +24,7 @@
 | `###### heading` | smallest
 
 
-&nbsp;
+<br/>
 
 ## Text Styling
 | Style      |    Syntax     |   Keyboard shortcut   |       Example              |       Output            |
@@ -36,7 +36,7 @@
 |***All bold and italic***| *** *** | |	`***All this text is important***` | ***All this text is important*** |
 
 
-&nbsp;
+<br/>
 
 ## Ignoring Markdown formatting
 You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
@@ -45,12 +45,12 @@ You can tell GitHub to ignore (or escape) Markdown formatting by using \ before 
 <br/>Let's rename \*our-new-project\* to \*our-old-project\*.
 
 
-&nbsp;
+<br/>
 
 ## line break
-use `<br/>` or  `&nbsp;` to add one empty line.  you can add two blank lines for a line break.
+use `<br/>` for a line break. &nbsp; you can add two blank lines to add one empty line.
 
-&nbsp;
+<br/>
 
 ## Quotext Text
 >this is a quoted text 
@@ -69,7 +69,7 @@ use `<br/>` or  `&nbsp;` to add one empty line.  you can add two blank lines for
 > > > ...or with spaces between arrows.
 
 
-&nbsp;
+<br/>
 
 ## Adding Code 
 
@@ -100,7 +100,7 @@ int main(){
 ```
 
 
-&nbsp;
+<br/>
 
 ## Links
 ***syntax:***
@@ -127,21 +127,21 @@ A relative link is a link that is relative to the current file. For example, if 
 ``[Contribution guidelines for this project](docs/CONTRIBUTING.md)``
 
 
-&nbsp;
+<br/>
 
 ### Adding Images
 ***syntax:*** `![This is an image](/link to image)` 
 <br />\****note***\* the `!` mark.
 
 
-&nbsp;
+<br/>
 
 ### Attaching files
 To attach a file to an issue or pull request conversation, drag and drop it into the comment box. Alternatively, you can click the bar at the bottom of the comment box to browse, select, and add a file from your computer.
 ![image](https://user-images.githubusercontent.com/63545175/149994313-08f1ed6c-2373-4d61-9443-7b3ece289a7c.png)
 
 
-&nbsp;
+<br/>
 
 ## Using emoji
 You can add emoji to your writing by typing ```:EMOJICODE:```
@@ -234,11 +234,12 @@ aligning content
 <details>
 <summary>CLICK ME</summary>
 <p>
+
 #### We can hide anything, even code!
   
-  ```python
+```python
       python("Hello World")
-  ```
+```
   
 </p>
 </details>
@@ -251,9 +252,9 @@ Output:
 
 #### We can hide anything, even code!
 
-  ```python
+```python
       python("Hello World")
-  ```
+```
 
 </p>
 </details>
@@ -272,6 +273,14 @@ Output:
 
 
 &nbsp;
+
+## Adding CSS in ReadMe
+<a href="https://github.com/sindresorhus/css-in-readme-like-wat" title="https://github.com/sindresorhus/css-in-readme-like-wat"> read this </a>
+<a href="https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo/51956450#:~:text=You%20can%20add%20some%20HTML,tag%20in%20your%20GitHub%20README." title="https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo/51956450#:~:text=You%20can%20add%20some%20HTML,tag%20in%20your%20GitHub%20README."> and this </a>
+
+
+<br/>
+
 
 ## FootNotes
 ```Note
