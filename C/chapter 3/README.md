@@ -47,7 +47,19 @@ for the recursion to terminate there is a termination condition, where function 
 
 
 ## direct vs indirect recursion
-[watch this video](https://youtu.be/t9whckmAEq0)
+<table align=center>
+<tr>
+<td width=300>
+	
+![2](https://user-images.githubusercontent.com/63545175/153750738-5bd2141a-9d2c-4387-8f6c-f998614e7089.png)
+</td>
+<td width=300>
+	
+
+![1](https://user-images.githubusercontent.com/63545175/153750733-6c71bbf0-5ea2-4921-8eba-74e910a35859.png)
+</td>
+</tr>
+</table>
 
 
 <br/>
@@ -499,28 +511,29 @@ int main()
 </tr>
 <tr>
 <td>
-  
-**ex:** 
+
+<b> Fibonacci Series </b>  
+**ex:**  
 ```C++
-   return (n*fact(n-1))
+  return (fibo(n-1) + fib(n-2));
 ```
 </td>
 <td>
   
 **ex:**
 ```C++
-  return (fibo(n-1) + fib(n-2))
+?????????????????
 ```
 </td>
 </tr>
 <tr>
 <td>
   
-in above example of 
+enter your thoughts... 
 </td>
 <td>
   
-
+enter your thoughts... 
 </td>  
 </tr>
 </table>
