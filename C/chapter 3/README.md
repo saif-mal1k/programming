@@ -306,9 +306,7 @@ hence, Constant i.e O(1)
     
 ***Note:*** Every recursive problem can be solved through iteration. it's a good choice to convert recursion to iteration. if it is easy to implement and solve a problem using iteration prefer iteration.
 
-[watch this video](https://youtu.be/hK01dEvdN_s)
-
-
+<br/>
 <br/>
 
 ## Stack Overflow error
@@ -322,10 +320,17 @@ exhausted stack won't be able to store variables for next recursion and hence is
 ### tail Recursion | ***tail call optimization***
 - A recursive function is tail recursive when a recursive call is the last thing executed by the function. 
 - tail recursive functions can be optimized by the compiler, hence better choice.
-- [watch this video first](https://youtu.be/Wpkh5YSqwqg)
-- [then watch this video](https://youtu.be/HIt_GPuD7wk)
-- [then watch this video](https://youtu.be/_JtPhF8MshA)
 
+<details>
+  <summary> watch these video to know more... </summary>
+<p>
+    
+- [watch this video first](https://youtu.be/Wpkh5YSqwqg  "Tail recursion/Tail-Call Optimization | Recursion in programming |DS & Algorithm| Gate Appliedcourse
+")
+- [then watch this video](https://youtu.be/HIt_GPuD7wk  "Types of Recursion (Part 2) | Tail & Non-tail Recursion")
+- [then watch this video](https://youtu.be/_JtPhF8MshA "tail Recursion Explained - Computerphile")
+</p>
+</details>
 <br/>
 
 ### ***examples of tail recursion***
@@ -360,4 +365,77 @@ int main()
   </p>
 </details>
 
+<details>
+  <summary>
+    <b><em> 2. Fibonacci Series </b></em>
+  </summary>
+  <p>
+  
+```C
+    
+#include<stdio.h>
+#include<conio.h>
+
+int factorial(int number, int accumulated_value)
+{
+  if(number == 1)
+  {
+    return accumulated_value;
+  }
+  else 
+    return factorial(number-1, accumulated_value*number );
+}
+
+int main()
+{
+  printf("%d",factorial(5,1));
+
+  return 0;
+}
+```
+  </p>
+</details>    
+
+<br/>    
+    
+###  how is tail recursion better than head recursion ?
+&nbsp; &nbsp; in head recursion (regular recursion) when the recursive call returns there is an expression to be evaluated.
+<table align=center>
+<tr>
+<td width=450>
+  <b> Factorial of a Number </b>
+</td>
+<td width=450>
+  <b> Fibonacci Series </b>
+</td>
+</tr>
+<tr>
+<td>
+  
+**ex:** 
+```C++
+   return (n*fact(n-1))
+```
+</td>
+<td>
+  
+**ex:**
+```C++
+  return (fibo(n-1) + fib(n-2))
+```
+</td>
+</tr>
+<tr>
+<td>
+  
+in above example of 
+</td>
+<td>
+  
+
+</td>  
+</tr>
+</table>
+<br/> 
+    
 
