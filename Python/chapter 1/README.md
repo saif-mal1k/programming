@@ -17,9 +17,9 @@ print(name + “is” +str(age) + “old”)
 
 ### using place holder:
 print("{0} is {1} yrs old".format("raju",23))
-print("Validation MAE: {:,.0f}".format(29652.931506849316))	   //>>> 29,653
-print(‘%s is %dyrs %.2fsec old,%(‘raju’),%(24),%(13.33))
-print(f“ Hello {user_name}, Good{time_gretting}”) 
+<br/>print("Validation MAE: {:,.0f}".format(29652.931506849316))	   //>>> 29,653
+<br/>print(‘%s is %dyrs %.2fsec old,%(‘raju’),%(24),%(13.33))
+<br/>print(f“ Hello {user_name}, Good{time_gretting}”) 
 
 
 
