@@ -69,7 +69,7 @@ _**Keywords** are recerved words in a programming language they have a special m
 <details>
  <summary><b>note:</b> <em>there are 32 keywords in c.</em></summary>
  <div align="center">
-  <img src="C-Keywords-1.1.png">
+  <img src="images/C-Keywords-1.1.png">
  </div>
 </details>
 
