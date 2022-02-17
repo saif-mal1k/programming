@@ -291,7 +291,7 @@ int main() {
 
 <details>
   <summary>
-    <b><em> 4. Tower of Hanoi using recursion</b></em>
+    <b><em> 4. Tower of Hanoi using recursion ?????? </b></em>
   </summary>
   <p>
     
@@ -304,7 +304,26 @@ int main() {
 <td width=300>
   
 ```C
-
+tower(int n, char beg, char aux, char end)
+{
+	if(n==1)
+		printf("%c -> %c", beg, end);
+	else
+	{
+		tower(n-1, beg, end, aux);
+		printf("%c -> %c", beg, end);
+		tower(n-1, aux, beg, end);
+	}
+}
+	
+int main()
+{
+	int n;
+	printf("enter the number of disks");
+	scanf("%d",&n);
+	tower(n, 'A', 'B', 'C');
+	return 0;
+}
 ```
 </td>
 <td width=300>
