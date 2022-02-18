@@ -1,5 +1,12 @@
 # C++ Programming Notes
 
+
+## Life cycle of c++ program
+<div align="center" width="600">
+	<img src="images/life-cycle.png" alt="life cycle of c++ program">
+</div>
+
+
 # Table of Contents
 1. [Example](#example)
 2. [Example2](#example2)
