@@ -116,10 +116,50 @@ int main(){
 
 ***output:*** [Google](https://www.google.com "goto GOOGLE")
 
-
+<br/>
 
 ### ***Section link***
-what
+```md
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. <a href="http://github.com/saif-mal1k/md%20(markdown)">Fourth Example</a>
+
+## Example
+## Example2
+## Third Example
+```
+---
+***working example:***
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. <a href="http://github.com/saif-mal1k/md%20(markdown)">Fourth Example</a>
+
+## Example
+## Example2
+## Third Example
+---
+***custom-name anchor link.***
+```md
+# Table of Contents
+4. [Fourth/Example](#custom-name1)
+
+## <a name="custom-name1"></a> Fourth/Example
+```
+---
+***working example:***
+# Table of Contents
+4. [Fourth/Example](#custom-name1)
+
+## <a name="custom-name1"></a> Fourth/Example
+
+---
+
+
+<br/>
 
 ### ***Relative links***
 A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
