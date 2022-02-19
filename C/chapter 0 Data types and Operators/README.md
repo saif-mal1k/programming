@@ -32,7 +32,9 @@
   |unsigned int | %d             | 2                 | 0  -  65535|
   |short int  | %d               | 2                 | -32768  -  +32767|
   |long int   | %ld              | 4                 | -2147483648  -  +2147483647|
-  |float      | %f               | 4                 | -32768  -  +32767|
+  |float      | %f               | 4                 | -3.4E<sup>38</sup> - +3.4E<sup>38</sup> |
+  |double     | %lf              | 8                 | -1.7E<sup>308</sup> - +1.7E<sup>308</sup> |
+  |long double| %Lf              | 10                | -3.4E<sup>3942</sup> - +3.4E<sup>3942</sup> |
   |char       | %c               | 1                 | -128  -  +127|
   |signed char| %c               | 1                 | -128  -  +127|
   |unsigned char| %c             | 1                 | 0  -  255|
