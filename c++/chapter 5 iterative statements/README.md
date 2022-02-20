@@ -1,7 +1,7 @@
 # Iterative Statements
 
 ## for loop
-***synatx:*** 
+***syntax:*** 
 ```C++
   for ( initialization ; test-expression ; updation)
   {	
