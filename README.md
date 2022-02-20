@@ -3,7 +3,7 @@
 ### [C ](https://github.com/saif-mal1k/programming/tree/main/C "click to open C notes") 
 ### [C++ ](https://github.com/saif-mal1k/programming/tree/main/c%2B%2B "click to open C++ notes")
 
-### [Python ](https://github.com/saif-mal1k/programming/tree/main/python "click to open python notes")
+### [Python ](https://github.com/saif-mal1k/programming/tree/main/Python "click to open python notes")
 
 ### [JavaScript ](https://github.com/saif-mal1k/programming/tree/main/JavaScript "click to open JavaScript notes")
 
