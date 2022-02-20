@@ -51,6 +51,24 @@
 
 <br/>
 
+## jump statements:
+### break;
+***note:*** _the break statement skips the rest of the loop and jumps over to the statement following the loop._
+
+### continue;
+***note:*** _the continue statement skips the rest of the loop statements and causes the next iteration of the loop to take place._
+
+### goto and labels 
+***example:***
+```C++
+  goto label;
+      statements;
+  label: 
+      statements ;
+```
+
+<br/>
+
 ## 💡 for loop using range and iterable(C++11):
 ```C++
   for (auto x : v)    // for each x in v, x is a variable and v  is an iterable an array.
@@ -69,23 +87,6 @@
   }
 ```
 
-<br/>
-
-## jump statements:
-### break;
-***note:*** _the break statement skips the rest of the loop and jumps over to the statement following the loop._
-
-### continue;
-***note:*** _the continue statement skips the rest of the loop statements and causes the next iteration of the loop to take place._
-
-### goto and labels 
-***example:***
-```C++
-  goto label;
-      statements;
-  label: 
-      statements ;
-```
 
 
 
