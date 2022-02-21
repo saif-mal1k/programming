@@ -73,7 +73,8 @@ add(1, 5);
 
 <br/>
 
-## types of function
+---
+# types of function
 <table>
 <tr>
 <td width=300>  
@@ -138,6 +139,7 @@ add(1, 5);
 
 <br/>
 
+---
 # the main function
 ***declaration:*** by C compiler.
 
@@ -148,7 +150,7 @@ add(1, 5);
 
 <br/>
 
-
+---
 # External Variables & Automatic Variables
 ***external variables*** are defined outside of any function and thus, potentially available to many functions.
 <br/>function themselves are always external.
@@ -168,6 +170,7 @@ add(1, 5);
 <br/>
 
 
+---
 # Local , Global and Static Variables
 ## Local variables:
 ```C
@@ -214,7 +217,7 @@ void func()
 ***Static Variables*** is initialized only once and its value can be retained between function calls.
 <table>
 <tr>
-<td width=300>
+<td width=400>
   
 ```C
   # include <stdio.h>
@@ -237,7 +240,7 @@ void func()
   }
 ```
 </td>
-<td width=300>
+<td width=400>
 
 ***Output:***
 <br/> a=10, b=10
@@ -250,5 +253,7 @@ here, b is initialized only Once but value is retained again & again.
 </td> 
 </tr>
 </table>
+
+---
 
 
