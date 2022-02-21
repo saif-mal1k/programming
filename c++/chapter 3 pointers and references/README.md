@@ -107,6 +107,15 @@ s = &p;  	// error: cannot convert 'int**' to 'int*' in assignment
 </tr>
 </table>
 
+***here, all arithmetic is performed relative to the size of base type of pointer.***
+```C++
+	int *pi = 4000;
+	pi++;			// pi will be 4000 + 4 = 4004 ( +4  since, base type of pi is int)
+	pi = pi - 3 ;		// pi will be 4000 - 3*4 = 3992
+	pi = pi + 5 ;		// pi will be 4000 + 5*4 = 4012
+	pi = pi - pi;		// 0 as pi is 0 pointers away from itself
+```
+
 <br/>
 
 
