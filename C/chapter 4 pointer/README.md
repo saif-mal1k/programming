@@ -167,6 +167,7 @@ suppose we have a pointer iptr which contains address 2000 and when we write ``*
   int **ppa = &pa;      // ppa is a pointer to pointer and stores address of pa.
 ```
 
+<br/>
 
 
 
