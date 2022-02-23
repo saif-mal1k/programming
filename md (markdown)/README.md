@@ -102,6 +102,7 @@ int main(){
 
 <br/>
 
+---
 ## Links
 ***syntax:***
 `[linkText](https://url-of-location)`
@@ -118,6 +119,7 @@ int main(){
 
 <br/>
 
+---
 ### ***Section link***
 ```md
 # Table of Contents
@@ -130,7 +132,7 @@ int main(){
 ## Example2
 ## Third Example
 ```
----
+
 ***working example:***
 # Table of Contents
 1. [Example](#example)
@@ -141,7 +143,9 @@ int main(){
 ## Example
 ## Example2
 ## Third Example
----
+
+<br/>
+
 ***custom-name anchor link.***
 ```md
 # Table of Contents
@@ -149,18 +153,17 @@ int main(){
 
 ## <a name="custom-name1"></a> Fourth/Example
 ```
----
+
 ***working example:***
 # Table of Contents
 4. [Fourth/Example](#custom-name1)
 
 ## <a name="custom-name1"></a> Fourth/Example
 
----
-
-
 <br/>
 
+---
+## Attaching files with README
 ### ***Relative links***
 A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
 
@@ -171,7 +174,7 @@ A relative link is a link that is relative to the current file. For example, if 
 
 ### Adding Images
 ***syntax:*** `![This is an image](/link to image)` 
-<br />\****note***\* the `!` mark.
+<br />\****note:***\* the `!` mark.
 
 
 <br/>
@@ -196,8 +199,9 @@ You can add emoji to your writing by typing ```:EMOJICODE:```
 <br/>```:heart:``` :heart:
 
 
-&nbsp;
+<br/>
 
+---
 ## List
 ### You can make an unordered list by preceding one or more lines of text with - or *.
 ***example:***
@@ -233,8 +237,9 @@ You can add emoji to your writing by typing ```:EMOJICODE:```
      - Second nested list item
 
 
-&nbsp;
+<br/>
 
+---
 ## Creating a table
 ***example:***
 ```
@@ -273,8 +278,9 @@ aligning content
 | Pipe     | \|        |
 
 
-&nbsp;
+<br/>
 
+---
 ## Organizing information with collapsed sections
 ***example:***
 ````
@@ -307,8 +313,9 @@ Output:
 </details>
 
 
-&nbsp;
+<br/>
 
+---
 ## adding page break / horizontal lines
 
 `---`
@@ -321,7 +328,7 @@ Output:
 
 <br/>
 
-
+---
 ## FootNotes
 ```Note
 Note: The position of a footnote in your Markdown does not influence where the footnote will be rendered. 
