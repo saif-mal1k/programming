@@ -30,9 +30,6 @@
 
 ❌  <b>```int brr[] = { 1, 2, 3, 4 };	//invalid Size can't be determined```</b> 
 
-
-
-
 <br/>
 
 ### 1D Arrays and functions
@@ -82,7 +79,9 @@
 	datatype arrayName[rowSize][columnSize] = { 	{ r0c0, r0c1, r0c2, .....},
 							{ r1c0, r1c1, r1c2, .....},
 							{ r2c0, r2c1, r2c2, .....},
-							.....
+							.
+							.
+							.
 						  };
 ```
 </em></b>
@@ -141,6 +140,80 @@
 		}
 	}
 ```
+
+
+<br/>
+
+<br/>
+
+---
+
+## 3D array
+
+### declaration
+***syntax:***
+```C
+	dataType name[x][y][z]; 	// you can skip x, but must provide the value of y and z.
+```
+
+❌  <b>```int arr[][][];```</b> 
+
+✔️  <b>```int arr[][2][3];```</b>
+
+✔️  <b>```int arr[2][2][3];	/*its better to specify all values```</b>
+
+
+### initialization
+***syntax:***
+```C
+
+dataType name[x][y][z] = { { { x0y0z0, x0y0z1, x0y0z2, ... }, { x0y1z0, x0y1z1, x0y1z2, ... }, { x0y2z0, x0y2z1, x0y2z2, ... }, .... }, 
+			   { { x1y0z0, x1y0z1, x1y0z2, ... }, { x1y1z0, x1y1z1, x1y1z2, ... }, { x1y2z0, x1y2z1, x1y2z2, ... }, .... },  
+			   { { x2y0z0, x2y0z1, x2y0z2, ... }, { x2y0z0, x2y0z1, x2y0z2, ... }, { x2y0z0, x2y0z1, x2y0z2, ... }, .... }, ....  };
+
+```
+
+***example: putting value in each cube in a  rubix-cube***
+```C
+
+int rubixCube[3][3][3] = { { { "000", "001", "002" }, { "010", "011", "012" }, { "020", "021", "022" } }, 
+			   { { "100", "101", "102" }, { "110", "111", "112" }, { "120", "121", "122" } },  
+			   { { "200", "201", "202" }, { "200", "201", "202" }, { "200", "201", "202" } } };
+
+```
+
+<br/>
+
+***example: painting rubix-cube***
+_"since rubix cube has 6 faces hence we'll need six 2D array."_
+```C
+
+int rubixCube[3][3][3] = { { { red, red, red }, { red, red, red }, { red, red, red } }, 
+			   { { white, white, white }, { white, white, white }, { white, white, white } },  
+			   { { green, green, green }, { green, green, green }, { green, green, green } },
+			   { { yellow, yellow, yellow }, { yellow, yellow, yellow }, { yellow, yellow, yellow } }, 
+			   { { blue, blue, blue }, { blue, blue, blue }, { blue, blue, blue } },  
+			   { { orange, orange, orange }, { orange, orange, orange }, { orange, orange, orange } } };
+
+```
+
+<br/>
+
+### 3D Arrays and functions
+***declaration:***
+```C
+	int func(int arr[][5][2]);	// ✔️
+	int func(int arr[3][5][2]);	// ✔️
+```
+
+***passing array to function:***
+```C
+	func( arr );	
+```
+
+
+
+<b><em>💡 tip:</b> using the same approach you can create a multi-dimensional array.</em> 
 
 
 
