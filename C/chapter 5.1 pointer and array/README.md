@@ -5,7 +5,7 @@
 ```
 
 
-### programm to print value of each element and their address in array
+### program: <em>print value of each element in an array and their address.</em>
 ```C
 	for(i=0; i<5; i++)
 	{
@@ -18,8 +18,9 @@
 ***note: ``arr`` is the reference to the array.
 <br/>here, ``arr`` is acting a pointer variable storing address of 1st element of array.***
 
+<br/>
 
-### programm to do same but using pointer notation
+### program: <em>to do same but using pointer notation.</em>
 ```C
 	for(i=0; i<5; i++)
 	{
@@ -29,12 +30,15 @@
 	}
 ```
 
-
+<br/>
 
 ## Subscripting pointer Variables
-since, <b>```*(arr+i) = arr[i]  or   i[arr]	//subscript notation```</b>
+since, <b>```*(arr+i) = arr[i]  or   i[arr]```	//subscript notation</b>
 
 therefore, if <b>```int *ptr = arr;```</b> then <b>```*(ptr+i) = ptr[i]```</b>.
 	
+<br/>
+
+
 
 
