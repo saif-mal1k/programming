@@ -53,6 +53,8 @@
 
 <br/>
 
+<br/>
+
 ---
 
 
@@ -123,7 +125,7 @@
 	func( arr );	
 ```
 
-
+<br/>
 
 ## program for matrix multiplication:
 ```C
