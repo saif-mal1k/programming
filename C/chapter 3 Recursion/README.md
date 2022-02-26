@@ -103,7 +103,7 @@ int main(){
 </td>
 <td>    
 
-<img src="images/call_stack_of_factorial.gif" width="300">
+<a href="#"><img src="images/call_stack_of_factorial.gif" width="300"></a>
 </td>
 <tr>
 </tr>
