@@ -69,10 +69,10 @@
 ## Keywords 
 _**Keywords** are recerved words in a programming language they have a special meaning._
 <details>
- <summary><b>note:</b> <em>there are 32 keywords in c.</em></summary>
- <div align="center">
-  <img src="images/C-Keywords-1.1.png">
- </div>
+<summary><b>note:</b> <em>there are 32 keywords in c.</em></summary>
+<div align="center">
+<a href="keywords"><img src="images/C-Keywords-1.1.png"></a>
+</div>
 </details>
 
 &nbsp;
