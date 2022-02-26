@@ -42,7 +42,7 @@ char *cptr;
 
 </td>
 <td width="500">
-<img src="../images/assigning address of pointer.gif" alt="assigning address of pointer">
+<a href="#"><img src="../images/assigning address of pointer.gif" alt="assigning address of pointer"></a>
 
 </td>
 </tr>
@@ -68,7 +68,7 @@ printf("value of age = %d , %d, %d\n", a, *iptr, *(&age));
  
 ***output:***
   
-<img src="../images/output screen for pointers.png">
+<a href="#"><img src="../images/output screen for pointers.png"></a>
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ the value of pointer only tells the address of starting byte."_
 suppose we have a pointer iptr which contains address 2000 and when we write ``*iptr`` the compiler knows that it has to access the information starting at address 2000.
 <br/> so the compiler will look at the base type of the pointer and will retrieve the information depending on that base type. 
 <br/> for example if base type is int then 4 bytes information will be retrieved, and if base type is double then 8 bytes will be retreived and soon.
-<img src="../images/example pointer base type .png" alt="example" width="500">
+<a href="#"><img src="../images/example pointer base type .png" alt="example" width="500"></a>
 </p>
 </details>
 
