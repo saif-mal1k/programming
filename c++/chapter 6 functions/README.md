@@ -4,7 +4,7 @@
 ```C
 	int func-name ( int arg….)		//parameters called formal parameter
 ```
-### defination
+### definition
 ```C
 	void sayhellow(){ 
 		cout<<”hellow” ; 
@@ -15,7 +15,7 @@
 	sayhellow();		        	// parameters are called actual parameters
 ```
 
-💡 ***tip:*** _in c functions can't define default arguements, but **C++ functions allow to define default arguements.**_
+💡 ***tip:*** _in c function definition can't have default arguements, but **C++ allow us to add default arguements to functions.**_
 
 
 <br/>
