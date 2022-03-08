@@ -188,7 +188,7 @@ int rubixCube[3][3][3] = { { { "000", "001", "002" }, { "010", "011", "012" }, {
 _"since rubix cube has 6 faces hence we'll need six 2D array."_
 ```C
 
-int rubixCube[3][3][3] = { { { red, red, red }, { red, red, red }, { red, red, red } }, 
+int rubixCube[6][3][3] = { { { red, red, red }, { red, red, red }, { red, red, red } }, 
 			   { { white, white, white }, { white, white, white }, { white, white, white } },  
 			   { { green, green, green }, { green, green, green }, { green, green, green } },
 			   { { yellow, yellow, yellow }, { yellow, yellow, yellow }, { yellow, yellow, yellow } }, 
