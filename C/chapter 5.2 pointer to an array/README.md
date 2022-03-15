@@ -54,13 +54,29 @@
 <tr>
 <td colspan="2">
   
-- sizeof(*p) = 4 ``//depends upon the base type of`` **``value at``** **``p``**. ``i.e int have 4 bytes.``
-- sizeof(*ptr) = 4 ``//depends upon the base type of`` **``value at``** **``ptr``**. ``i.e an array of 5 elements, of base type int, hence`` **``5*4``** ``bytes.``
+- sizeof(*p) = 4    ``//depends upon the base type of`` **``value at``** **``p``**. ``i.e int have 4 bytes.``
+- sizeof(*ptr) = 20 ``//depends upon the base type of`` **``value at``** **``ptr``**. ``i.e an array of 5 elements, of base type int, hence`` **``5*4``** ``bytes.``
 
+***note:*** _``*pointerName`` denotes the value at address stored by pointer variable(pointer name), hence sizeOf(*ptr) is actually the size of value i.e an array(base type)._
 </td>
 </tr>
-</table>
+<tr>
+<td colspan="2">
+  
+- sizeof(p) = 4   
+- sizeof(ptr) = 4 
+  
+***note:*** _size of pointer variable is same for all types of pointer(i.e 4 bytes), hence pointer will always need 4 bytes to store address of single variable._
+</td>
+</tr>
+<tr>
+<td colspan="2">
+  
+***most-important-note!*** _but the size of pointer to array("Array Pointer") will depend on the size of array and its base type._
 
+</td>
+</tr>  
+</table>
 
 
 
