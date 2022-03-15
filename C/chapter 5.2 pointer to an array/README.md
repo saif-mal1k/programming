@@ -39,8 +39,24 @@
 </td>
 </tr>
 <tr>
+<td colspan="2" align="center">
+<a href="#"><img src="../images/pointer_to_an_array_example.png" width="600px"></a>
+</td>
+</tr>
+<tr>
 <td colspan="2">
-  <!-- add image here?????????????????????? -->
+  
+- sizeof(arr) = 20 ``//`` **``4*5``**.
+- sizeof(arr+1) = 4 ``//`` **``i.e an element``**.
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+  
+- sizeof(*p) = 4 ``//depends upon the base type of`` **``value at``** **``p``**. ``i.e int have 4 bytes.``
+- sizeof(*ptr) = 4 ``//depends upon the base type of`` **``value at``** **``ptr``**. ``i.e an array of 5 elements, of base type int, hence`` **``5*4``** ``bytes.``
+
 </td>
 </tr>
 </table>
