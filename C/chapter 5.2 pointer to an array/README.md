@@ -31,13 +31,21 @@
 <td>  
 
 ```
-  p = &arr         // ='s to 0012FEAC
-  p++              // point to next array of integers if exist
+  ptr = &arr         // ='s to 0012FEAC
+  ptr++              // point to next array of integers if exist
   printf("%p",ptr);  // ='s 0012FECO
   printf("%p",*ptr); // ='s 0012FECO
 ```
 </td>
 </tr>
+<tr>
+<td colspan="2">
+  <!-- add image here?????????????????????? -->
+</td>
+</tr>
 </table>
+
+
+
 
 
