@@ -72,7 +72,7 @@
 <tr>
 <td colspan="2">
   
-***most-important-note!*** _but the size of pointer to array("Array Pointer") will depend on the size of array and its base type._
+***``most-important`` but the size of pointer to array("Array Pointer") will depend on the size of array and its base type.***
 
 </td>
 </tr>  
