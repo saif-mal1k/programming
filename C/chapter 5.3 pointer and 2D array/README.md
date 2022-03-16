@@ -10,11 +10,11 @@
 <tr>
 <td>
 
-<a><img src="../images/row-and-col-wise-notation-of-2D-array.png" alt="row-and-col-wise-notation-of-2D-array" width="450vw"></a>
+<a href="#"><img src="../images/row-and-col-wise-notation-of-2D-array.png" alt="row-and-col-wise-notation-of-2D-array" width="450vw"></a>
 
 - the Concept of rows and cols is only theoritical actually a 2-D array is stored in ***row major order*** i.e ``rows are placed next to each other``.
  
-<a><img src="../images/row-major-notation.png" alt="row-major-notation" width="650vw"></a>
+<a href="#"><img src="../images/row-major-notation.png" alt="row-major-notation" width="650vw"></a>
 
 - each row can be considered as 1-D array, so a 2-D array can be considered as a collection of 1-D array.
 - here _arr is an array of 3 elements, where each element is a 1-D array of 4 integers._
