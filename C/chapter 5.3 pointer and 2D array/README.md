@@ -34,9 +34,24 @@
 - since i<sup>th</sup> element of 2-D array is a 1-D array. hence, ``arr+i`` points to i<sup>th</sup> 1D array. and holds base address of 1-D array.
 
 - on dereferencing the i<sup>th</sup> element of 2-D array we'll get reference to i<sup>th</sup> element of 1D array.
-  
-<a href="#"><img src="../images/subscripting-1D-array-ie-element-of-2D-array.png" alt="subscripting-1D-array-ie-element-of-2D-array" width="600"></a>
 
+<!----begin--->
+<table>
+<tr>
+<td>
+<a href="#"><img src="../images/subscripting-1D-array-i-e-element-of-2D-array.png" alt="subscripting-1D-array-ie-element-of-2D-array" width="520vw"></a>
+</td>
+<td>
+<a href="#"><img src="../images/referencing-elements-of-1D-array-ie-element-of-2D-array.png" alt="referencing-elements-of-1D-array-ie-element-of-2D-array" width="400vw"></a>
+</td>
+</tr>
+</table>
+<!--------end---->
+  
+- so, **``*(arr+i)`` gives base address of i<sup>th</sup> 1D array.
+- since, **``*(arr+i) = arr[i]``**  ``//subscript notation``
+- hence, **``arr[i]`` *gives the base address of i<sup>th</sup> 1-D array.***
+  
 </td>
 </tr>
 </table>
