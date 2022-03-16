@@ -33,6 +33,12 @@
 <br/>
 
 ## Subscripting pointer Variables
+- ***arr is a pointer that holds the address of ist element of array.***
+- hence, from ponter arithmetic **``arr+i``** holds the addresss of i<sup>th</sup> element of array.
+- on dereferencing this pointer **``*(arr+i)``** we get i<sup>th</sup> element of array.
+
+writing **``*(arr+i)``** as **``arr[i]``** or **``i[arr]``** is known as writing in subscript notation.
+
 since, <b>```*(arr+i) = arr[i]  or   i[arr]```	//subscript notation</b>
 
 therefore, if <b>```int *ptr = arr;```</b> then <b>```*(ptr+i) = ptr[i]```</b>.
