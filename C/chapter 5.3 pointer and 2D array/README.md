@@ -48,7 +48,7 @@
 </table>
 <!--------end---->
   
-- so, **``*(arr+i)`` gives base address of i<sup>th</sup> 1D array.
+- so, **``*(arr+i)``** gives base address of i<sup>th</sup> 1D array.
 - since, **``*(arr+i) = arr[i]``**  ``//subscript notation``
 - hence, **``arr[i]`` *gives the base address of i<sup>th</sup> 1-D array.***
   
