@@ -39,7 +39,7 @@
 <table>
 <tr>
 <td>
-<a href="#"><img src="../images/subscripting-1D-array-ie-element-of-2D-array.png" alt="subscripting-1D-array-ie-element-of-2D-array" width="520vw"></a>
+<a href="#"><img src="../images/subscripting-1D-array-ie-element-of-2D-array.png.png" alt="subscripting-1D-array-ie-element-of-2D-array" width="520vw"></a>
 </td>
 <td>
 <a href="#"><img src="../images/referencing-elements-of-1D-array-ie-element-of-2D-array.png" alt="referencing-elements-of-1D-array-ie-element-of-2D-array" width="400vw"></a>
