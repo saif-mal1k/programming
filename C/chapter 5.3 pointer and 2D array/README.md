@@ -30,8 +30,8 @@
 
 <a href="#"><img src="../images/subscripting-array.png" alt="subscripting-array" width="600vw"></a>
 
-- since ``arr+i`` points to i<sup>th</sup> element of array. alternatively we can say ``arr+i`` holds address of i<sup>th</sup> element of array. 
-- since i<sup>th</sup> element of 2-D array is a 1-D array. hence, ``arr+i`` points to i<sup>th</sup> 1D array. and holds base address of 1-D array.
+- since **``arr+i``** points to i<sup>th</sup> element of array. alternatively we can say **``arr+i``** holds address of i<sup>th</sup> element of array. 
+- since i<sup>th</sup> element of 2-D array is a 1-D array. hence, **``arr+i``** points to i<sup>th</sup> 1D array. and holds base address of 1-D array.
 
 - on dereferencing the i<sup>th</sup> element of 2-D array we'll get reference to i<sup>th</sup> element of 1D array.
 
@@ -54,5 +54,48 @@
   
 </td>
 </tr>
+<tr>
+<td>
+
+***note that both expressions ``(arr+i)`` and ``*(arr+i)`` are pointers, but their base type is different.***
+- **``arr+i``** base type (array of 4 int), ``SizeOf(arr+i) = 4*4``.
+- **``*(arr+i)``** base type (int), ``SizeOf(*(arr+i)) = 4``.
+
+</td>
+</tr>
+<tr>
+<td>
+  
+***Summary:***  
+
+<!-----------begin------------>
+<table>
+<tr>
+<td width="450vw">
+
+- **``arr``** is a pointer to 1st element of 2-D array.
+- **``arr+i``** is a pointer to i<sup>th</sup> element of 2-D array.
+- **``*arr``** is a pointer to 1st element of 1st 1-D array.
+- **``*(arr+i)``** is a pointer to 1st element of i<sup>th</sup> 1-D array. alternative **``arr[i]``**.
+- **``*(arr+0)+j``** is a pointer to j<sup>th</sup> element of 1st 1-D array. 
+- **``*(arr+i)+j``** is a pointer to j<sup>th</sup> element of i<sup>th</sup> 1-D array.
+- **``*(*(arr+i)+j)``** dereferences j<sup>th</sup> element of i<sup>th</sup> 1-D array. alternative **``arr[i][j]``**.
+
+</td>
+<td width="500vw">
+  
+<a href="#"><img src="../images/subscripting_pointer_to_2D_array.png" alt="subscripting_pointer_to_2D_array"></a>
+
+</td>
+</tr>
 </table>
+<!-----------end------------>
+</td>
+</tr>
+</table>
+
+</br>
+
+## Subscripting pointer to an array.
+?????????????
 
