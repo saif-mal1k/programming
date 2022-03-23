@@ -56,10 +56,4 @@ all program code require to be converted to low level code ``“byte code”`` t
 
 
 
-<details>
-  <summary><b><em>  </b></em></summary>
-<p>
-
-</p>
-</details> 
 
