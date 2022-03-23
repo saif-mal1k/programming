@@ -20,10 +20,13 @@
 ---
 
 ## want to learn web-development, learn HTML, CSS, Javascript in order. _see <a href="https://github.com/saif-mal1k/web-development" title="click to view web-development repository">this</a> repository_.
-- ***``HTML``*** - used for structuring web page.
-- ***``CSS``*** - used for adding beauty to web page.
-- ***``JavaScript``*** - used for front end, as well as backend. ???????????????
-### [JavaScript ](https://github.com/saif-mal1k/programming/tree/main/JavaScript "click to open JavaScript notes")
+
+### Frontend
+- ***<a href="https://github.com/saif-mal1k/web-development/tree/main/HTML" title="click to open HTML notes">``HTML``</a>*** - used for structuring web page.
+- ***<a href="https://github.com/saif-mal1k/web-development/tree/main/CSS" title="click to open CSS notes">``CSS``</a>*** - used to add beauty to web page.
+- ***<a href="https://github.com/saif-mal1k/programming/tree/main/JavaScript" title="click to open JavaScript notes">``JavaScript``</a>*** - used for front end, as well as backend. ???????????????
+
+### Backend
 - ***``PHP``*** - ????????
 - ***``SQL``*** - ??????????
 
@@ -32,7 +35,7 @@
 ---
 
 ## want to learn how to write beautiful documentation such as this one. 
-### [markdown Syntax Notes](https://github.com/saif-mal1k/programming/tree/main/md%20(markdown) "click to open md syntax notes") 
+### [learn markdown Syntax](https://github.com/saif-mal1k/programming/tree/main/md%20(markdown) "click to open md syntax notes") 
 
 <br/>
 
