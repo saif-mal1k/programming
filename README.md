@@ -19,7 +19,7 @@
 
 ---
 
-## want to learn web-development, learn HTML, CSS, Javascript in order. _see <a href="https://github.com/saif-mal1k/web-development" title="click to view web-development repository">this</a> repository_.
+## want to learn web-development, learn HTML, CSS, Javascript in order. _see <a href="https://github.com/saif-mal1k/web-development" title="click to see web-development repository">this</a> repository_.
 
 ### Frontend
 - ***<a href="https://github.com/saif-mal1k/web-development/tree/main/HTML" title="click to open HTML notes">``HTML``</a>*** - used for structuring web page.
