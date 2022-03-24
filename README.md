@@ -1,9 +1,7 @@
 ## Notes to learn programming Languages
 
 ## want to learn the fundamentals and become super coder, learn C and then  C++.
-- ***``plus-point``*** - most ``effecient``(_"fast-execution and smart use of resources"_) and ``effective``(_"freedom in terms of control over hardware"_) language.
-### [C ](https://github.com/saif-mal1k/programming/tree/main/C "click to open C notes") 
-### [C++ ](https://github.com/saif-mal1k/programming/tree/main/c%2B%2B "click to open C++ notes")
+- ***<a href="https://github.com/saif-mal1k/programming/tree/main/C" title="click to open C notes">``C``</a>``,``<a href="https://github.com/saif-mal1k/programming/tree/main/c%2B%2B" title="click to open C++ notes">``C++``</a>*** - most ``effecient``(_"fast-execution and smart use of resources"_) and ``effective``(_"freedom in terms of control over hardware"_) language.
 
 
 <br/>
@@ -11,8 +9,7 @@
 ---
 
 ## want to learn something easy and super useful
-- ***``plus-point``*** - widely used for backend in framework such as ``django`` & ``flask``. used by research teams for ``Data Science``, ``Machine Learning``, ``Deep Learning``, ``AI systems`` and much more.
-### [Python ](https://github.com/saif-mal1k/programming/tree/main/Python "click to open python notes")
+- ***``learn``<a href="https://github.com/saif-mal1k/programming/tree/main/Python" title="click to open python notes">``python``</a>*** - widely used for backend in framework such as ``django`` & ``flask``. used by research teams for ``Data Science``, ``Machine Learning``, ``Deep Learning``, ``AI systems`` and much more.
 
 
 <br/>
