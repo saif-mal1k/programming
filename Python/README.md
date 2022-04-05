@@ -44,7 +44,14 @@
   
 <br/>
 
+## Download Python 
+Interpreter : http://sourceforge.net/projects/pydev/
 
+IDE Plugin : http://pydev.org/manual_101_install.html
+
+
+
+<br/>
 
 ## Life cycle of python program
      
