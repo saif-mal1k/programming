@@ -33,7 +33,7 @@
 
 ## want to learn how to write beautiful documentation such as this one. 
 - learn **[markdown](https://github.com/saif-mal1k/programming/tree/main/md%20(markdown) "click to open md syntax notes")** Syntax.
-- learn about **github pages.**
+- learn about **[github pages](https://pages.github.com/).**
 - learn about <a href="https://docsify.js.org/">**docsify**</a>
 
 
