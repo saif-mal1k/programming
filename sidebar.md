@@ -5,7 +5,7 @@
 <br/>
 
 - [📝 C programming Notes](C/README.md)
-- [📝 C++ programming Notes](C++/README.md)
+- [📝 C++ programming Notes](c%2B%2B/README.md)
 - [📝 python programming Notes](Python/README.md)
 - [📝 markdown syntax Notes](md%20(markdown)/README.md)
 
