@@ -1,4 +1,3 @@
-# Data types
  **very important:** "every input in python is string by default, which must be suitably type casted (explicitly)."
 > _"since, Python in **dynamically typed**. it is possible to define a variable without datatype."_
 
